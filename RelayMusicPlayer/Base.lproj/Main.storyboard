@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Music Player View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="MusicPlayerViewController" customModule="RelayMusicPlayer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zYJ-Qh-fRS">
+                                <rect key="frame" x="170" y="500" width="36" height="30"/>
+                                <state key="normal" title="PLAY"/>
+                                <connections>
+                                    <action selector="playButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hhQ-Oa-iT3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZlX-XT-O7C">
+                                <rect key="frame" x="64" y="500" width="73" height="30"/>
+                                <state key="normal" title="PREVIOUS"/>
+                                <connections>
+                                    <action selector="previousButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EAu-dk-Rvm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9AA-r6-Pph">
+                                <rect key="frame" x="246" y="500" width="39" height="30"/>
+                                <state key="normal" title="NEXT"/>
+                                <connections>
+                                    <action selector="nextButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qXy-px-aYS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z2k-ab-keO">
+                                <rect key="frame" x="163" y="538" width="48" height="30"/>
+                                <state key="normal" title="PAUSE"/>
+                                <connections>
+                                    <action selector="pauseButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OYw-7t-bLu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t2P-xL-wHO">
+                                <rect key="frame" x="158" y="462" width="61" height="30"/>
+                                <state key="normal" title="SPOTIFY"/>
+                                <connections>
+                                    <action selector="loginBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jvp-ct-X5I"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="zYJ-Qh-fRS" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="480" id="52o-4A-bVD"/>
+                            <constraint firstItem="zYJ-Qh-fRS" firstAttribute="top" secondItem="t2P-xL-wHO" secondAttribute="bottom" constant="8" symbolic="YES" id="5JH-Dh-gYH"/>
+                            <constraint firstItem="z2k-ab-keO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7SR-2B-aWA"/>
+                            <constraint firstItem="9AA-r6-Pph" firstAttribute="leading" secondItem="zYJ-Qh-fRS" secondAttribute="trailing" constant="40" id="K7I-cT-ZK5"/>
+                            <constraint firstItem="zYJ-Qh-fRS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="KmM-OM-Slr"/>
+                            <constraint firstItem="z2k-ab-keO" firstAttribute="top" secondItem="zYJ-Qh-fRS" secondAttribute="bottom" constant="8" symbolic="YES" id="PI4-lO-T2d"/>
+                            <constraint firstItem="zYJ-Qh-fRS" firstAttribute="baseline" secondItem="ZlX-XT-O7C" secondAttribute="baseline" id="SOu-N8-vfT"/>
+                            <constraint firstItem="t2P-xL-wHO" firstAttribute="centerX" secondItem="zYJ-Qh-fRS" secondAttribute="centerX" id="diY-Nv-VcX"/>
+                            <constraint firstItem="zYJ-Qh-fRS" firstAttribute="leading" secondItem="ZlX-XT-O7C" secondAttribute="trailing" constant="33" id="yM5-da-P8Y"/>
+                            <constraint firstItem="zYJ-Qh-fRS" firstAttribute="baseline" secondItem="9AA-r6-Pph" secondAttribute="baseline" id="z3n-8Q-hY5"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="loginButton" destination="t2P-xL-wHO" id="iGf-2n-0b9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
