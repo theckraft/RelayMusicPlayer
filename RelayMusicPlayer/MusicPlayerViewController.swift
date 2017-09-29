@@ -73,7 +73,7 @@ class MusicPlayerViewController: UIViewController, SPTAudioStreamingPlaybackDele
         loginButton.isHidden = true
         let userDefaults = UserDefaults.standard
         
-        if let sessionObj:AnyObject = userDefaults.object(forKey: "SpotifySession") as AnyObject? {
+        if let sessionObj: AnyObject = userDefaults.object(forKey: "SpotifySession") as AnyObject? {
             
             let sessionDataObj = sessionObj as! Data
             let firstTimeSession = NSKeyedUnarchiver.unarchiveObject(with: sessionDataObj) as! SPTSession
@@ -100,12 +100,17 @@ class MusicPlayerViewController: UIViewController, SPTAudioStreamingPlaybackDele
         // after a user authenticates a session, the SPTAudioStreamingController is then initialized and this method called
         print("logged in")
         
-        self.player2?.playSpotifyURI("spotify:track:58s6EuEYJdlb0kO7awm3Vp", startingWith: 0, startingWithPosition: 0, callback: { (error) in
-            if (error != nil) {
-                print("playing!")
-            }
-        })
+        
+        
+        
+//        self.player2?.playSpotifyURI("spotify:track:58s6EuEYJdlb0kO7awm3Vp", startingWith: 0, startingWithPosition: 0, callback: { (error) in
+//            if (error != nil) {
+//                print("playing!")
+//            }
+//        })
     }
+    
+    
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		5B3556251F6C3A470068CF3C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B3556241F6C3A460068CF3C /* AVFoundation.framework */; };
+		5B432E091F741FD000EA6619 /* SpotifyAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B432E081F741FAD00EA6619 /* SpotifyAuthentication.framework */; };
+		5B432E0A1F741FD300EA6619 /* SpotifyAudioPlayback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B432E071F741FAD00EA6619 /* SpotifyAudioPlayback.framework */; };
 		5B70391A1F6B260B008B912F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7039191F6B260B008B912F /* AppDelegate.swift */; };
 		5B70391F1F6B260B008B912F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B70391D1F6B260B008B912F /* Main.storyboard */; };
 		5B7039211F6B260B008B912F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B7039201F6B260B008B912F /* Assets.xcassets */; };
@@ -18,15 +20,16 @@
 		5B7039361F6B2696008B912F /* MusicPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7039311F6B2695008B912F /* MusicPlayerViewController.swift */; };
 		5B7039371F6B2696008B912F /* ApplicationMusicPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7039321F6B2695008B912F /* ApplicationMusicPlayer.swift */; };
 		5B961F6D1F6C3AC200725E4F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B961F6C1F6C3AC200725E4F /* SystemConfiguration.framework */; };
-		5B961F711F6C3D7700725E4F /* BridgeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B961F701F6C3D7700725E4F /* BridgeViewController.m */; };
-		5B961F761F6C3EA400725E4F /* SpotifyMetadata.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B961F751F6C3E6E00725E4F /* SpotifyMetadata.framework */; };
-		5B961F771F6C3EA900725E4F /* SpotifyAudioPlayback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B961F731F6C3E2F00725E4F /* SpotifyAudioPlayback.framework */; };
-		5B961F781F6C3EAC00725E4F /* SpotifyAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B961F741F6C3E2F00725E4F /* SpotifyAuthentication.framework */; };
-		E762459E242950794AFA63A0 /* Pods_RelayMusicPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A43FEDC6AE7E5DC27186CBA /* Pods_RelayMusicPlayer.framework */; };
+		5BE77E141F7DBFCA002E6139 /* SearchHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE77E131F7DBFCA002E6139 /* SearchHandler.swift */; };
+		5BE77E161F7DBFE7002E6139 /* APIHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE77E151F7DBFE7002E6139 /* APIHandler.swift */; };
+		5BF74E401F742167007CFF20 /* BridgeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF74E3F1F742167007CFF20 /* BridgeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1198EAFBE2E8E32C84C0E323 /* Pods-RelayMusicPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RelayMusicPlayer.release.xcconfig"; path = "Pods/Target Support Files/Pods-RelayMusicPlayer/Pods-RelayMusicPlayer.release.xcconfig"; sourceTree = "<group>"; };
 		5B3556241F6C3A460068CF3C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		5B432E071F741FAD00EA6619 /* SpotifyAudioPlayback.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyAudioPlayback.framework; sourceTree = "<group>"; };
+		5B432E081F741FAD00EA6619 /* SpotifyAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyAuthentication.framework; sourceTree = "<group>"; };
 		5B7039161F6B260B008B912F /* RelayMusicPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RelayMusicPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B7039191F6B260B008B912F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5B70391E1F6B260B008B912F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -40,13 +43,15 @@
 		5B7039311F6B2695008B912F /* MusicPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayerViewController.swift; sourceTree = "<group>"; };
 		5B7039321F6B2695008B912F /* ApplicationMusicPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationMusicPlayer.swift; sourceTree = "<group>"; };
 		5B961F6C1F6C3AC200725E4F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		5B961F6E1F6C3D7700725E4F /* RelayMusicPlayer-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RelayMusicPlayer-Bridging-Header.h"; sourceTree = "<group>"; };
-		5B961F6F1F6C3D7700725E4F /* BridgeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgeViewController.h; sourceTree = "<group>"; };
-		5B961F701F6C3D7700725E4F /* BridgeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BridgeViewController.m; sourceTree = "<group>"; };
 		5B961F731F6C3E2F00725E4F /* SpotifyAudioPlayback.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyAudioPlayback.framework; sourceTree = "<group>"; };
 		5B961F741F6C3E2F00725E4F /* SpotifyAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyAuthentication.framework; sourceTree = "<group>"; };
 		5B961F751F6C3E6E00725E4F /* SpotifyMetadata.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyMetadata.framework; sourceTree = "<group>"; };
-		6A43FEDC6AE7E5DC27186CBA /* Pods_RelayMusicPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RelayMusicPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BE77E131F7DBFCA002E6139 /* SearchHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchHandler.swift; sourceTree = "<group>"; };
+		5BE77E151F7DBFE7002E6139 /* APIHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIHandler.swift; sourceTree = "<group>"; };
+		5BF74E3E1F742167007CFF20 /* BridgeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgeViewController.h; sourceTree = "<group>"; };
+		5BF74E3F1F742167007CFF20 /* BridgeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BridgeViewController.m; sourceTree = "<group>"; };
+		5BF74E411F7421C9007CFF20 /* RelayMusicPlayer-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RelayMusicPlayer-Bridging-Header.h"; sourceTree = "<group>"; };
+		7F7AC64A79128E2F08092CD9 /* Pods-RelayMusicPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RelayMusicPlayer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RelayMusicPlayer/Pods-RelayMusicPlayer.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,22 +61,30 @@
 			files = (
 				5B961F6D1F6C3AC200725E4F /* SystemConfiguration.framework in Frameworks */,
 				5B3556251F6C3A470068CF3C /* AVFoundation.framework in Frameworks */,
-				5B961F761F6C3EA400725E4F /* SpotifyMetadata.framework in Frameworks */,
-				5B961F781F6C3EAC00725E4F /* SpotifyAuthentication.framework in Frameworks */,
-				5B961F771F6C3EA900725E4F /* SpotifyAudioPlayback.framework in Frameworks */,
-				E762459E242950794AFA63A0 /* Pods_RelayMusicPlayer.framework in Frameworks */,
+				5B432E0A1F741FD300EA6619 /* SpotifyAudioPlayback.framework in Frameworks */,
+				5B432E091F741FD000EA6619 /* SpotifyAuthentication.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F8AFDEC8088BFD40A219C2A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7F7AC64A79128E2F08092CD9 /* Pods-RelayMusicPlayer.debug.xcconfig */,
+				1198EAFBE2E8E32C84C0E323 /* Pods-RelayMusicPlayer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		5B3556231F6C3A460068CF3C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5B432E071F741FAD00EA6619 /* SpotifyAudioPlayback.framework */,
+				5B432E081F741FAD00EA6619 /* SpotifyAuthentication.framework */,
 				5B961F6C1F6C3AC200725E4F /* SystemConfiguration.framework */,
 				5B3556241F6C3A460068CF3C /* AVFoundation.framework */,
-				6A43FEDC6AE7E5DC27186CBA /* Pods_RelayMusicPlayer.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -82,6 +95,7 @@
 				5B7039181F6B260B008B912F /* RelayMusicPlayer */,
 				5B7039171F6B260B008B912F /* Products */,
 				5B3556231F6C3A460068CF3C /* Frameworks */,
+				1F8AFDEC8088BFD40A219C2A /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +110,7 @@
 		5B7039181F6B260B008B912F /* RelayMusicPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				5BE77E101F7DBF18002E6139 /* SpotifyWrapper */,
 				5B961F721F6C3E1D00725E4F /* SpotifySDKFramworks */,
 				5B7039321F6B2695008B912F /* ApplicationMusicPlayer.swift */,
 				5B70392D1F6B2695008B912F /* MusicPlayer.swift */,
@@ -108,9 +123,9 @@
 				5B7039201F6B260B008B912F /* Assets.xcassets */,
 				5B7039221F6B260B008B912F /* LaunchScreen.storyboard */,
 				5B7039251F6B260B008B912F /* Info.plist */,
-				5B961F6F1F6C3D7700725E4F /* BridgeViewController.h */,
-				5B961F701F6C3D7700725E4F /* BridgeViewController.m */,
-				5B961F6E1F6C3D7700725E4F /* RelayMusicPlayer-Bridging-Header.h */,
+				5BF74E3E1F742167007CFF20 /* BridgeViewController.h */,
+				5BF74E3F1F742167007CFF20 /* BridgeViewController.m */,
+				5BF74E411F7421C9007CFF20 /* RelayMusicPlayer-Bridging-Header.h */,
 			);
 			path = RelayMusicPlayer;
 			sourceTree = "<group>";
@@ -131,6 +146,15 @@
 				5B961F741F6C3E2F00725E4F /* SpotifyAuthentication.framework */,
 			);
 			path = SpotifySDKFramworks;
+			sourceTree = "<group>";
+		};
+		5BE77E101F7DBF18002E6139 /* SpotifyWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				5BE77E131F7DBFCA002E6139 /* SearchHandler.swift */,
+				5BE77E151F7DBFE7002E6139 /* APIHandler.swift */,
+			);
+			path = SpotifyWrapper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -217,7 +241,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RelayMusicPlayer/Pods-RelayMusicPlayer-resources.sh\"\n";
+			shellScript = "";
 			showEnvVarsInLog = 0;
 		};
 		7EB03901453327B4CE9B1BE5 /* [CP] Check Pods Manifest.lock */ = {
@@ -244,16 +268,13 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-RelayMusicPlayer/Pods-RelayMusicPlayer-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/SpotifyLogin/SpotifyLogin.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SpotifyLogin.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RelayMusicPlayer/Pods-RelayMusicPlayer-frameworks.sh\"\n";
+			shellScript = "";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -268,7 +289,9 @@
 				5B7039361F6B2696008B912F /* MusicPlayerViewController.swift in Sources */,
 				5B70391A1F6B260B008B912F /* AppDelegate.swift in Sources */,
 				5B7039351F6B2696008B912F /* MusicPlayerHandler.swift in Sources */,
-				5B961F711F6C3D7700725E4F /* BridgeViewController.m in Sources */,
+				5BF74E401F742167007CFF20 /* BridgeViewController.m in Sources */,
+				5BE77E161F7DBFE7002E6139 /* APIHandler.swift in Sources */,
+				5BE77E141F7DBFCA002E6139 /* SearchHandler.swift in Sources */,
 				5B7039371F6B2696008B912F /* ApplicationMusicPlayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -404,6 +427,7 @@
 		};
 		5B7039291F6B260B008B912F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F7AC64A79128E2F08092CD9 /* Pods-RelayMusicPlayer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -412,9 +436,15 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/RelayMusicPlayer/SpotifySDKFramworks",
+					"$(PROJECT_DIR)",
 				);
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "$(inherited)";
 				INFOPLIST_FILE = RelayMusicPlayer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-iquote",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = me.christiankraft.RelayMusicPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -427,6 +457,7 @@
 		};
 		5B70392A1F6B260B008B912F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1198EAFBE2E8E32C84C0E323 /* Pods-RelayMusicPlayer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -435,9 +466,15 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/RelayMusicPlayer/SpotifySDKFramworks",
+					"$(PROJECT_DIR)",
 				);
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "$(inherited)";
 				INFOPLIST_FILE = RelayMusicPlayer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-iquote",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = me.christiankraft.RelayMusicPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
