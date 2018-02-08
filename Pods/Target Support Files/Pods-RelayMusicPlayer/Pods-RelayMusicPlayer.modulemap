@@ -1,6 +1,0 @@
-framework module Pods_RelayMusicPlayer {
-  umbrella header "Pods-RelayMusicPlayer-umbrella.h"
-
-  export *
-  module * { export * }
-}

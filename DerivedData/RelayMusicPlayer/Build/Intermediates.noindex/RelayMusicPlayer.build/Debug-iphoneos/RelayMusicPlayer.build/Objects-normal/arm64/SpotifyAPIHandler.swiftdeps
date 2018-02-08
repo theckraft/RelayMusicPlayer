@@ -1,0 +1,257 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SpotifyAPIHandler"
+provides-nominal:
+- "16RelayMusicPlayer17SpotifyAPIHandlerC"
+provides-member:
+- ["16RelayMusicPlayer17SpotifyAPIHandlerC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- !private "=="
+- "AssignmentPrecedence"
+- !private "CastingPrecedence"
+- "Data"
+- !private "HTTPURLResponse"
+- "SPTSession"
+- "SpotifyAPIHandler"
+- !private "String"
+- !private "StringLiteralType"
+- "URL"
+- !private "URLRequest"
+- !private "URLSession"
+- "Void"
+- !private "print"
+depends-member:
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "accessToken"]
+- !private ["s7CVarArgP", "dataTask"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "resume"]
+- !private ["s7CVarArgP", "shared"]
+- !private ["s7CVarArgP", "statusCode"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "accessToken"]
+- !private ["s28CustomDebugStringConvertibleP", "addValue"]
+- !private ["s28CustomDebugStringConvertibleP", "dataTask"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "resume"]
+- !private ["s28CustomDebugStringConvertibleP", "shared"]
+- !private ["s28CustomDebugStringConvertibleP", "statusCode"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "addValue"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "accessToken"]
+- !private ["s23CustomStringConvertibleP", "addValue"]
+- !private ["s23CustomStringConvertibleP", "dataTask"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "resume"]
+- !private ["s23CustomStringConvertibleP", "shared"]
+- !private ["s23CustomStringConvertibleP", "statusCode"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "accessToken"]
+- !private ["s9EquatableP", "addValue"]
+- !private ["s9EquatableP", "dataTask"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "resume"]
+- !private ["s9EquatableP", "shared"]
+- !private ["s9EquatableP", "statusCode"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["So15HTTPURLResponseC", "statusCode"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "accessToken"]
+- !private ["s8HashableP", "addValue"]
+- !private ["s8HashableP", "dataTask"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "resume"]
+- !private ["s8HashableP", "shared"]
+- !private ["s8HashableP", "statusCode"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "accessToken"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "statusCode"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "resume"]
+- !private ["So9NSCopyingP", "statusCode"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So16NSMutableCopyingP", "init"]
+- !private ["So8NSObjectC", "accessToken"]
+- !private ["So8NSObjectC", "dataTask"]
+- !private ["So8NSObjectC", "resume"]
+- !private ["So8NSObjectC", "shared"]
+- !private ["So8NSObjectC", "statusCode"]
+- !private ["So16NSObjectProtocolP", "accessToken"]
+- !private ["So16NSObjectProtocolP", "dataTask"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "resume"]
+- !private ["So16NSObjectProtocolP", "shared"]
+- !private ["So16NSObjectProtocolP", "statusCode"]
+- !private ["So14NSSecureCodingP", "accessToken"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "statusCode"]
+- !private ["So8NSStringC", "init"]
+- !private ["So17ProgressReportingP", "resume"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "addValue"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["So10SPTSessionC", "accessToken"]
+- !private ["s8SequenceP", "init"]
+- ["16RelayMusicPlayer17SpotifyAPIHandlerC", "Data"]
+- !private ["16RelayMusicPlayer17SpotifyAPIHandlerC", "HTTPURLResponse"]
+- ["16RelayMusicPlayer17SpotifyAPIHandlerC", "SPTSession"]
+- !private ["16RelayMusicPlayer17SpotifyAPIHandlerC", "String"]
+- ["16RelayMusicPlayer17SpotifyAPIHandlerC", "URL"]
+- !private ["16RelayMusicPlayer17SpotifyAPIHandlerC", "URLRequest"]
+- !private ["16RelayMusicPlayer17SpotifyAPIHandlerC", "URLSession"]
+- ["16RelayMusicPlayer17SpotifyAPIHandlerC", "Void"]
+- ["16RelayMusicPlayer17SpotifyAPIHandlerC", "deinit"]
+- ["16RelayMusicPlayer17SpotifyAPIHandlerC", "init"]
+- !private ["16RelayMusicPlayer17SpotifyAPIHandlerC", "print"]
+- ["16RelayMusicPlayer17SpotifyAPIHandlerC", "request"]
+- ["16RelayMusicPlayer17SpotifyAPIHandlerC", "session"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["10Foundation10URLRequestV", "addValue"]
+- !private ["10Foundation10URLRequestV", "init"]
+- !private ["So11URLResponseC", "statusCode"]
+- !private ["So10URLSessionC", "dataTask"]
+- !private ["So10URLSessionC", "shared"]
+- !private ["So18URLSessionDataTaskC", "resume"]
+- !private ["So14URLSessionTaskC", "resume"]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "accessToken"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dataTask"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "resume"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "statusCode"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "addValue"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "s23BidirectionalCollectionP"
+- !private "Sb"
+- !private "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- !private "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "So15HTTPURLResponseC"
+- !private "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "So17ProgressReportingP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "So10SPTSessionC"
+- !private "s8SequenceP"
+- "16RelayMusicPlayer17SpotifyAPIHandlerC"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "10Foundation10URLRequestV"
+- !private "So11URLResponseC"
+- !private "So10URLSessionC"
+- !private "So18URLSessionDataTaskC"
+- !private "So14URLSessionTaskC"
+- !private "s23_BidirectionalIndexableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/MediaPlayer.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/theckraft/Documents/Programming/Xcode/RelayMusicPlayer/RelayMusicPlayer/SpotifySDKFramworks/SpotifyAudioPlayback.framework/Headers/SPTPlaybackMetadata.h"
+- "/Users/theckraft/Documents/Programming/Xcode/RelayMusicPlayer/RelayMusicPlayer/SpotifySDKFramworks/SpotifyAudioPlayback.framework/Headers/SPTDiskCache.h"
+- "/Users/theckraft/Documents/Programming/Xcode/RelayMusicPlayer/RelayMusicPlayer/SpotifySDKFramworks/SpotifyAudioPlayback.framework/Headers/SPTPlaybackState.h"
+- "/Users/theckraft/Documents/Programming/Xcode/RelayMusicPlayer/RelayMusicPlayer/SpotifySDKFramworks/SpotifyAudioPlayback.framework/Headers/SPTDiskCaching.h"
+- "/Users/theckraft/Documents/Programming/Xcode/RelayMusicPlayer/RelayMusicPlayer/SpotifySDKFramworks/SpotifyAuthentication.framework/Headers/SPTAuth.h"
+- "/Users/theckraft/Documents/Programming/Xcode/RelayMusicPlayer/RelayMusicPlayer/SpotifySDKFramworks/SpotifyAudioPlayback.framework/Headers/SpotifyAudioPlayback.h"
+- "/Users/theckraft/Documents/Programming/Xcode/RelayMusicPlayer/RelayMusicPlayer/SpotifySDKFramworks/SpotifyAuthentication.framework/Headers/SPTSession.h"
+- "/Users/theckraft/Documents/Programming/Xcode/RelayMusicPlayer/RelayMusicPlayer/SpotifySDKFramworks/SpotifyAuthentication.framework/Headers/SpotifyAuthentication.h"
+- "/Users/theckraft/Documents/Programming/Xcode/RelayMusicPlayer/RelayMusicPlayer/SpotifySDKFramworks/SpotifyAuthentication.framework/Headers/SPTConnectButton.h"
+- "/Users/theckraft/Documents/Programming/Xcode/RelayMusicPlayer/RelayMusicPlayer/RelayMusicPlayer-Bridging-Header.h"
+- "/Users/theckraft/Documents/Programming/Xcode/RelayMusicPlayer/RelayMusicPlayer/SpotifySDKFramworks/SpotifyAudioPlayback.framework/Headers/SPTCircularBuffer.h"
+- "/Users/theckraft/Documents/Programming/Xcode/RelayMusicPlayer/RelayMusicPlayer/SpotifySDKFramworks/SpotifyAudioPlayback.framework/Headers/SPTAudioStreamingController.h"
+- "/Users/theckraft/Documents/Programming/Xcode/RelayMusicPlayer/RelayMusicPlayer/SpotifySDKFramworks/SpotifyAudioPlayback.framework/Headers/SPTCoreAudioController.h"
+- "/Users/theckraft/Documents/Programming/Xcode/RelayMusicPlayer/RelayMusicPlayer/SpotifySDKFramworks/SpotifyAuthentication.framework/Headers/SPTStoreViewController.h"
+- "/Users/theckraft/Documents/Programming/Xcode/RelayMusicPlayer/RelayMusicPlayer/SpotifySDKFramworks/SpotifyAuthentication.framework/Headers/SPTAuthViewController.h"
+- "/Users/theckraft/Documents/Programming/Xcode/RelayMusicPlayer/RelayMusicPlayer/SpotifySDKFramworks/SpotifyAudioPlayback.framework/Headers/SPTAudioStreamingController_ErrorCodes.h"
+- "/Users/theckraft/Documents/Programming/Xcode/RelayMusicPlayer/RelayMusicPlayer/SpotifySDKFramworks/SpotifyAuthentication.framework/Headers/SPTEmbeddedImages.h"
+- "/Users/theckraft/Documents/Programming/Xcode/RelayMusicPlayer/RelayMusicPlayer/SpotifySDKFramworks/SpotifyAudioPlayback.framework/Headers/SPTAudioPlaybackTypes.h"
+- "/Users/theckraft/Documents/Programming/Xcode/RelayMusicPlayer/RelayMusicPlayer/SpotifySDKFramworks/SpotifyAudioPlayback.framework/Headers/SpPlaybackEvent.h"
+interface-hash: "31796ab41297ad2ec06e2056e895426c"

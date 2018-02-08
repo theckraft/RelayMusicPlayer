@@ -100,14 +100,21 @@ class MusicPlayerViewController: UIViewController, SPTAudioStreamingPlaybackDele
         // after a user authenticates a session, the SPTAudioStreamingController is then initialized and this method called
         print("logged in")
         
+        let searchHandler: SpotifySearchHandler = SpotifySearchHandler(using: session)
+        searchHandler.search(with: "kanye west", types: [SpotifySearchHandler.SearchType.artist], onSuccess: { spotifySearchObject in
+            print("success", spotifySearchObject.artists?.items ?? ":(")
+            
+        }, onFailure: {
+            print("failure")
+        })
         
         
         
-//        self.player2?.playSpotifyURI("spotify:track:58s6EuEYJdlb0kO7awm3Vp", startingWith: 0, startingWithPosition: 0, callback: { (error) in
-//            if (error != nil) {
-//                print("playing!")
-//            }
-//        })
+        //        self.player2?.playSpotifyURI("spotify:track:58s6EuEYJdlb0kO7awm3Vp", startingWith: 0, startingWithPosition: 0, callback: { (error) in
+        //            if (error != nil) {
+        //                print("playing!")
+        //            }
+        //        })
     }
     
     

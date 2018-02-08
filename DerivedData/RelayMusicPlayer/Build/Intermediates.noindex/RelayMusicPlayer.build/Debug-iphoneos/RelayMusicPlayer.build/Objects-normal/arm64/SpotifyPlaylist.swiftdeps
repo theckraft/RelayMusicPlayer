@@ -1,0 +1,475 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SpotifyPlaylist"
+provides-nominal:
+- "16RelayMusicPlayer15SpotifyPlaylistC"
+- "16RelayMusicPlayer15SpotifyPlaylistC10CodingKeysO"
+provides-member:
+- ["16RelayMusicPlayer15SpotifyPlaylistC", ""]
+- ["16RelayMusicPlayer15SpotifyPlaylistC10CodingKeysO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "AssignmentPrecedence"
+- "Bool"
+- "CodingKey"
+- "Decoder"
+- "Int"
+- "Playlist"
+- "SpotifyExternalURL"
+- "SpotifyFollowers"
+- "SpotifyImage"
+- "SpotifyPaging"
+- "SpotifyPlaylist"
+- "SpotifyPlaylistTrack"
+- "SpotifyProtocol"
+- "SpotifyUser"
+- "String"
+- "StringLiteralType"
+- !private "~="
+depends-member:
+- ["16RelayMusicPlayer10BaseEntityC", "Bool"]
+- ["16RelayMusicPlayer10BaseEntityC", "CodingKey"]
+- !private ["16RelayMusicPlayer10BaseEntityC", "CodingKeys"]
+- ["16RelayMusicPlayer10BaseEntityC", "Decoder"]
+- ["16RelayMusicPlayer10BaseEntityC", "Int"]
+- ["16RelayMusicPlayer10BaseEntityC", "SpotifyExternalURL"]
+- ["16RelayMusicPlayer10BaseEntityC", "SpotifyFollowers"]
+- ["16RelayMusicPlayer10BaseEntityC", "SpotifyImage"]
+- ["16RelayMusicPlayer10BaseEntityC", "SpotifyPaging"]
+- ["16RelayMusicPlayer10BaseEntityC", "SpotifyPlaylistTrack"]
+- ["16RelayMusicPlayer10BaseEntityC", "SpotifyUser"]
+- ["16RelayMusicPlayer10BaseEntityC", "String"]
+- ["16RelayMusicPlayer10BaseEntityC", "collaborative"]
+- ["16RelayMusicPlayer10BaseEntityC", "description"]
+- ["16RelayMusicPlayer10BaseEntityC", "externalURLs"]
+- ["16RelayMusicPlayer10BaseEntityC", "followers"]
+- ["16RelayMusicPlayer10BaseEntityC", "href"]
+- ["16RelayMusicPlayer10BaseEntityC", "images"]
+- ["16RelayMusicPlayer10BaseEntityC", "isPublic"]
+- ["16RelayMusicPlayer10BaseEntityC", "owner"]
+- ["16RelayMusicPlayer10BaseEntityC", "snapshotId"]
+- ["16RelayMusicPlayer10BaseEntityC", "spotifyId"]
+- ["16RelayMusicPlayer10BaseEntityC", "tracks"]
+- ["16RelayMusicPlayer10BaseEntityC", "type"]
+- ["16RelayMusicPlayer10BaseEntityC", "uri"]
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["s13BinaryIntegerP", "hashValue"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "hashValue"]
+- ["s7CVarArgP", "init"]
+- ["s9CodingKeyP", "RawValue"]
+- !private ["s9CodingKeyP", "collaborative"]
+- !private ["s9CodingKeyP", "description"]
+- !private ["s9CodingKeyP", "externalURLs"]
+- !private ["s9CodingKeyP", "followers"]
+- ["s9CodingKeyP", "hashValue"]
+- !private ["s9CodingKeyP", "href"]
+- !private ["s9CodingKeyP", "images"]
+- ["s9CodingKeyP", "init"]
+- ["s9CodingKeyP", "intValue"]
+- !private ["s9CodingKeyP", "isPublic"]
+- !private ["s9CodingKeyP", "owner"]
+- ["s9CodingKeyP", "rawValue"]
+- !private ["s9CodingKeyP", "snapshotId"]
+- !private ["s9CodingKeyP", "spotifyId"]
+- ["s9CodingKeyP", "stringValue"]
+- !private ["s9CodingKeyP", "tracks"]
+- !private ["s9CodingKeyP", "type"]
+- !private ["s9CodingKeyP", "uri"]
+- ["s9CodingKeyP", ""]
+- ["16RelayMusicPlayer15SpotifyPlaylistC10CodingKeysO", "RawValue"]
+- ["16RelayMusicPlayer15SpotifyPlaylistC10CodingKeysO", "collaborative"]
+- ["16RelayMusicPlayer15SpotifyPlaylistC10CodingKeysO", "deinit"]
+- ["16RelayMusicPlayer15SpotifyPlaylistC10CodingKeysO", "description"]
+- ["16RelayMusicPlayer15SpotifyPlaylistC10CodingKeysO", "externalURLs"]
+- ["16RelayMusicPlayer15SpotifyPlaylistC10CodingKeysO", "followers"]
+- ["16RelayMusicPlayer15SpotifyPlaylistC10CodingKeysO", "hashValue"]
+- ["16RelayMusicPlayer15SpotifyPlaylistC10CodingKeysO", "href"]
+- ["16RelayMusicPlayer15SpotifyPlaylistC10CodingKeysO", "images"]
+- ["16RelayMusicPlayer15SpotifyPlaylistC10CodingKeysO", "init"]
+- ["16RelayMusicPlayer15SpotifyPlaylistC10CodingKeysO", "intValue"]
+- ["16RelayMusicPlayer15SpotifyPlaylistC10CodingKeysO", "isPublic"]
+- ["16RelayMusicPlayer15SpotifyPlaylistC10CodingKeysO", "owner"]
+- ["16RelayMusicPlayer15SpotifyPlaylistC10CodingKeysO", "rawValue"]
+- ["16RelayMusicPlayer15SpotifyPlaylistC10CodingKeysO", "snapshotId"]
+- ["16RelayMusicPlayer15SpotifyPlaylistC10CodingKeysO", "spotifyId"]
+- ["16RelayMusicPlayer15SpotifyPlaylistC10CodingKeysO", "stringValue"]
+- ["16RelayMusicPlayer15SpotifyPlaylistC10CodingKeysO", "tracks"]
+- ["16RelayMusicPlayer15SpotifyPlaylistC10CodingKeysO", "type"]
+- ["16RelayMusicPlayer15SpotifyPlaylistC10CodingKeysO", "uri"]
+- ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "hashValue"]
+- ["s10ComparableP", "init"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "hashValue"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "hashValue"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s9DecodableP", "Bool"]
+- !private ["s9DecodableP", "CodingKeys"]
+- !private ["s9DecodableP", "Int"]
+- !private ["s9DecodableP", "SpotifyExternalURL"]
+- !private ["s9DecodableP", "SpotifyFollowers"]
+- !private ["s9DecodableP", "SpotifyImage"]
+- !private ["s9DecodableP", "SpotifyPaging"]
+- !private ["s9DecodableP", "SpotifyUser"]
+- !private ["s9DecodableP", "String"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "collaborative"]
+- !private ["s9DecodableP", "description"]
+- !private ["s9DecodableP", "externalURLs"]
+- !private ["s9DecodableP", "followers"]
+- !private ["s9DecodableP", "hashValue"]
+- !private ["s9DecodableP", "href"]
+- !private ["s9DecodableP", "images"]
+- ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "isPublic"]
+- !private ["s9DecodableP", "owner"]
+- !private ["s9DecodableP", "snapshotId"]
+- !private ["s9DecodableP", "spotifyId"]
+- !private ["s9DecodableP", "tracks"]
+- ["s9DecodableP", "type"]
+- ["s9DecodableP", "uri"]
+- ["s9DecodableP", ""]
+- !private ["s7DecoderP", "container"]
+- !private ["s9EncodableP", "Bool"]
+- !private ["s9EncodableP", "CodingKeys"]
+- !private ["s9EncodableP", "Int"]
+- !private ["s9EncodableP", "SpotifyExternalURL"]
+- !private ["s9EncodableP", "SpotifyFollowers"]
+- !private ["s9EncodableP", "SpotifyImage"]
+- !private ["s9EncodableP", "SpotifyPaging"]
+- !private ["s9EncodableP", "SpotifyUser"]
+- !private ["s9EncodableP", "String"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "collaborative"]
+- !private ["s9EncodableP", "description"]
+- !private ["s9EncodableP", "externalURLs"]
+- !private ["s9EncodableP", "followers"]
+- !private ["s9EncodableP", "hashValue"]
+- !private ["s9EncodableP", "href"]
+- !private ["s9EncodableP", "images"]
+- ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "isPublic"]
+- !private ["s9EncodableP", "owner"]
+- !private ["s9EncodableP", "snapshotId"]
+- !private ["s9EncodableP", "spotifyId"]
+- !private ["s9EncodableP", "tracks"]
+- ["s9EncodableP", "type"]
+- ["s9EncodableP", "uri"]
+- ["s9EncodableP", ""]
+- ["s9EquatableP", "RawValue"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "collaborative"]
+- !private ["s9EquatableP", "description"]
+- !private ["s9EquatableP", "externalURLs"]
+- !private ["s9EquatableP", "followers"]
+- ["s9EquatableP", "hashValue"]
+- !private ["s9EquatableP", "href"]
+- !private ["s9EquatableP", "images"]
+- ["s9EquatableP", "init"]
+- ["s9EquatableP", "intValue"]
+- !private ["s9EquatableP", "isPublic"]
+- !private ["s9EquatableP", "owner"]
+- ["s9EquatableP", "rawValue"]
+- !private ["s9EquatableP", "snapshotId"]
+- !private ["s9EquatableP", "spotifyId"]
+- ["s9EquatableP", "stringValue"]
+- !private ["s9EquatableP", "tracks"]
+- !private ["s9EquatableP", "type"]
+- !private ["s9EquatableP", "uri"]
+- ["s9EquatableP", ""]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "hashValue"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "hashValue"]
+- ["s8HashableP", "RawValue"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "collaborative"]
+- !private ["s8HashableP", "description"]
+- !private ["s8HashableP", "externalURLs"]
+- !private ["s8HashableP", "followers"]
+- ["s8HashableP", "hashValue"]
+- !private ["s8HashableP", "href"]
+- !private ["s8HashableP", "images"]
+- ["s8HashableP", "init"]
+- ["s8HashableP", "intValue"]
+- !private ["s8HashableP", "isPublic"]
+- !private ["s8HashableP", "owner"]
+- ["s8HashableP", "rawValue"]
+- !private ["s8HashableP", "snapshotId"]
+- !private ["s8HashableP", "spotifyId"]
+- ["s8HashableP", "stringValue"]
+- !private ["s8HashableP", "tracks"]
+- !private ["s8HashableP", "type"]
+- !private ["s8HashableP", "uri"]
+- ["s8HashableP", ""]
+- !private ["Si", "hashValue"]
+- !private ["s22KeyedDecodingContainerV", "decode"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decode"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "hashValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "hashValue"]
+- ["s10MirrorPathP", "init"]
+- ["So8NSCodingP", "init"]
+- ["So9NSCopyingP", "init"]
+- ["So21NSItemProviderReadingP", "init"]
+- ["So21NSItemProviderWritingP", "init"]
+- ["So16NSMutableCopyingP", "init"]
+- ["So16NSObjectProtocolP", "init"]
+- ["So14NSSecureCodingP", "init"]
+- ["So8NSStringC", "init"]
+- !private ["s7NumericP", "hashValue"]
+- ["16RelayMusicPlayer8PlaylistC", "Bool"]
+- ["16RelayMusicPlayer8PlaylistC", "CodingKey"]
+- !private ["16RelayMusicPlayer8PlaylistC", "CodingKeys"]
+- ["16RelayMusicPlayer8PlaylistC", "Decoder"]
+- ["16RelayMusicPlayer8PlaylistC", "Int"]
+- ["16RelayMusicPlayer8PlaylistC", "SpotifyExternalURL"]
+- ["16RelayMusicPlayer8PlaylistC", "SpotifyFollowers"]
+- ["16RelayMusicPlayer8PlaylistC", "SpotifyImage"]
+- ["16RelayMusicPlayer8PlaylistC", "SpotifyPaging"]
+- ["16RelayMusicPlayer8PlaylistC", "SpotifyPlaylistTrack"]
+- ["16RelayMusicPlayer8PlaylistC", "SpotifyUser"]
+- ["16RelayMusicPlayer8PlaylistC", "String"]
+- ["16RelayMusicPlayer8PlaylistC", "collaborative"]
+- ["16RelayMusicPlayer8PlaylistC", "description"]
+- ["16RelayMusicPlayer8PlaylistC", "externalURLs"]
+- ["16RelayMusicPlayer8PlaylistC", "followers"]
+- ["16RelayMusicPlayer8PlaylistC", "href"]
+- ["16RelayMusicPlayer8PlaylistC", "images"]
+- ["16RelayMusicPlayer8PlaylistC", "init"]
+- ["16RelayMusicPlayer8PlaylistC", "isPublic"]
+- ["16RelayMusicPlayer8PlaylistC", "owner"]
+- ["16RelayMusicPlayer8PlaylistC", "snapshotId"]
+- ["16RelayMusicPlayer8PlaylistC", "spotifyId"]
+- ["16RelayMusicPlayer8PlaylistC", "tracks"]
+- ["16RelayMusicPlayer8PlaylistC", "type"]
+- ["16RelayMusicPlayer8PlaylistC", "uri"]
+- ["16RelayMusicPlayer8PlaylistC", ""]
+- ["s26RangeReplaceableCollectionP", "init"]
+- ["s16RawRepresentableP", "RawValue"]
+- !private ["s16RawRepresentableP", "collaborative"]
+- !private ["s16RawRepresentableP", "description"]
+- !private ["s16RawRepresentableP", "externalURLs"]
+- !private ["s16RawRepresentableP", "followers"]
+- ["s16RawRepresentableP", "hashValue"]
+- !private ["s16RawRepresentableP", "href"]
+- !private ["s16RawRepresentableP", "images"]
+- ["s16RawRepresentableP", "init"]
+- ["s16RawRepresentableP", "intValue"]
+- !private ["s16RawRepresentableP", "isPublic"]
+- !private ["s16RawRepresentableP", "owner"]
+- ["s16RawRepresentableP", "rawValue"]
+- !private ["s16RawRepresentableP", "snapshotId"]
+- !private ["s16RawRepresentableP", "spotifyId"]
+- ["s16RawRepresentableP", "stringValue"]
+- !private ["s16RawRepresentableP", "tracks"]
+- !private ["s16RawRepresentableP", "type"]
+- !private ["s16RawRepresentableP", "uri"]
+- ["s16RawRepresentableP", ""]
+- ["s8SequenceP", "init"]
+- !private ["s13SignedIntegerP", "hashValue"]
+- !private ["s13SignedNumericP", "hashValue"]
+- !private ["16RelayMusicPlayer18SpotifyExternalURLC", "deinit"]
+- !private ["16RelayMusicPlayer16SpotifyFollowersC", "deinit"]
+- !private ["16RelayMusicPlayer13SpotifyPagingC", "deinit"]
+- ["16RelayMusicPlayer15SpotifyPlaylistC", "Bool"]
+- ["16RelayMusicPlayer15SpotifyPlaylistC", "CodingKey"]
+- ["16RelayMusicPlayer15SpotifyPlaylistC", "CodingKeys"]
+- ["16RelayMusicPlayer15SpotifyPlaylistC", "Decoder"]
+- ["16RelayMusicPlayer15SpotifyPlaylistC", "Int"]
+- ["16RelayMusicPlayer15SpotifyPlaylistC", "SpotifyExternalURL"]
+- ["16RelayMusicPlayer15SpotifyPlaylistC", "SpotifyFollowers"]
+- ["16RelayMusicPlayer15SpotifyPlaylistC", "SpotifyImage"]
+- ["16RelayMusicPlayer15SpotifyPlaylistC", "SpotifyPaging"]
+- ["16RelayMusicPlayer15SpotifyPlaylistC", "SpotifyPlaylistTrack"]
+- ["16RelayMusicPlayer15SpotifyPlaylistC", "SpotifyUser"]
+- ["16RelayMusicPlayer15SpotifyPlaylistC", "String"]
+- ["16RelayMusicPlayer15SpotifyPlaylistC", "collaborative"]
+- ["16RelayMusicPlayer15SpotifyPlaylistC", "deinit"]
+- ["16RelayMusicPlayer15SpotifyPlaylistC", "description"]
+- ["16RelayMusicPlayer15SpotifyPlaylistC", "externalURLs"]
+- ["16RelayMusicPlayer15SpotifyPlaylistC", "followers"]
+- ["16RelayMusicPlayer15SpotifyPlaylistC", "href"]
+- ["16RelayMusicPlayer15SpotifyPlaylistC", "images"]
+- ["16RelayMusicPlayer15SpotifyPlaylistC", "init"]
+- ["16RelayMusicPlayer15SpotifyPlaylistC", "isPublic"]
+- ["16RelayMusicPlayer15SpotifyPlaylistC", "owner"]
+- ["16RelayMusicPlayer15SpotifyPlaylistC", "snapshotId"]
+- ["16RelayMusicPlayer15SpotifyPlaylistC", "spotifyId"]
+- ["16RelayMusicPlayer15SpotifyPlaylistC", "tracks"]
+- ["16RelayMusicPlayer15SpotifyPlaylistC", "type"]
+- ["16RelayMusicPlayer15SpotifyPlaylistC", "uri"]
+- !private ["16RelayMusicPlayer15SpotifyProtocolP", "Bool"]
+- !private ["16RelayMusicPlayer15SpotifyProtocolP", "CodingKeys"]
+- !private ["16RelayMusicPlayer15SpotifyProtocolP", "Int"]
+- !private ["16RelayMusicPlayer15SpotifyProtocolP", "SpotifyExternalURL"]
+- !private ["16RelayMusicPlayer15SpotifyProtocolP", "SpotifyFollowers"]
+- !private ["16RelayMusicPlayer15SpotifyProtocolP", "SpotifyImage"]
+- !private ["16RelayMusicPlayer15SpotifyProtocolP", "SpotifyPaging"]
+- !private ["16RelayMusicPlayer15SpotifyProtocolP", "SpotifyUser"]
+- !private ["16RelayMusicPlayer15SpotifyProtocolP", "String"]
+- !private ["16RelayMusicPlayer15SpotifyProtocolP", "collaborative"]
+- !private ["16RelayMusicPlayer15SpotifyProtocolP", "description"]
+- !private ["16RelayMusicPlayer15SpotifyProtocolP", "externalURLs"]
+- !private ["16RelayMusicPlayer15SpotifyProtocolP", "followers"]
+- !private ["16RelayMusicPlayer15SpotifyProtocolP", "href"]
+- !private ["16RelayMusicPlayer15SpotifyProtocolP", "images"]
+- !private ["16RelayMusicPlayer15SpotifyProtocolP", "isPublic"]
+- !private ["16RelayMusicPlayer15SpotifyProtocolP", "owner"]
+- !private ["16RelayMusicPlayer15SpotifyProtocolP", "snapshotId"]
+- !private ["16RelayMusicPlayer15SpotifyProtocolP", "spotifyId"]
+- !private ["16RelayMusicPlayer15SpotifyProtocolP", "tracks"]
+- ["16RelayMusicPlayer15SpotifyProtocolP", "type"]
+- ["16RelayMusicPlayer15SpotifyProtocolP", "uri"]
+- ["16RelayMusicPlayer15SpotifyProtocolP", ""]
+- !private ["16RelayMusicPlayer11SpotifyUserC", "deinit"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s10StrideableP", "hashValue"]
+- ["SS", "init"]
+- ["s14StringProtocolP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- ["s23_BidirectionalIndexableP", "init"]
+- !private ["s18_BitwiseOperationsP", "hashValue"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "hashValue"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- ["s10_IndexableP", "init"]
+- ["s14_IndexableBaseP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "hashValue"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s11_StrideableP", "hashValue"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "16RelayMusicPlayer10BaseEntityC"
+- "s23BidirectionalCollectionP"
+- !private "s13BinaryIntegerP"
+- !private "Sb"
+- "s7CVarArgP"
+- "s9CodingKeyP"
+- "16RelayMusicPlayer15SpotifyPlaylistC10CodingKeysO"
+- "s10CollectionP"
+- "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- !private "s7DecoderP"
+- "s9EncodableP"
+- "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- "s8HashableP"
+- !private "Si"
+- !private "s22KeyedDecodingContainerV"
+- !private "s30KeyedDecodingContainerProtocolP"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So21NSItemProviderReadingP"
+- "So21NSItemProviderWritingP"
+- "So16NSMutableCopyingP"
+- "So16NSObjectProtocolP"
+- "So14NSSecureCodingP"
+- "So8NSStringC"
+- !private "s7NumericP"
+- "16RelayMusicPlayer8PlaylistC"
+- "s26RangeReplaceableCollectionP"
+- "s16RawRepresentableP"
+- "s8SequenceP"
+- !private "s13SignedIntegerP"
+- !private "s13SignedNumericP"
+- !private "16RelayMusicPlayer18SpotifyExternalURLC"
+- !private "16RelayMusicPlayer16SpotifyFollowersC"
+- !private "16RelayMusicPlayer13SpotifyPagingC"
+- "16RelayMusicPlayer15SpotifyPlaylistC"
+- "16RelayMusicPlayer15SpotifyProtocolP"
+- !private "16RelayMusicPlayer11SpotifyUserC"
+- !private "s12StaticStringV"
+- !private "s10StrideableP"
+- "SS"
+- "s14StringProtocolP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "s23_BidirectionalIndexableP"
+- !private "s18_BitwiseOperationsP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "s10_IndexableP"
+- "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s26_RangeReplaceableIndexableP"
+- !private "s11_StrideableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/MediaPlayer.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/theckraft/Documents/Programming/Xcode/RelayMusicPlayer/RelayMusicPlayer/SpotifySDKFramworks/SpotifyAudioPlayback.framework/Headers/SPTPlaybackMetadata.h"
+- "/Users/theckraft/Documents/Programming/Xcode/RelayMusicPlayer/RelayMusicPlayer/SpotifySDKFramworks/SpotifyAudioPlayback.framework/Headers/SPTDiskCache.h"
+- "/Users/theckraft/Documents/Programming/Xcode/RelayMusicPlayer/RelayMusicPlayer/SpotifySDKFramworks/SpotifyAudioPlayback.framework/Headers/SPTPlaybackState.h"
+- "/Users/theckraft/Documents/Programming/Xcode/RelayMusicPlayer/RelayMusicPlayer/SpotifySDKFramworks/SpotifyAudioPlayback.framework/Headers/SPTDiskCaching.h"
+- "/Users/theckraft/Documents/Programming/Xcode/RelayMusicPlayer/RelayMusicPlayer/SpotifySDKFramworks/SpotifyAuthentication.framework/Headers/SPTAuth.h"
+- "/Users/theckraft/Documents/Programming/Xcode/RelayMusicPlayer/RelayMusicPlayer/SpotifySDKFramworks/SpotifyAudioPlayback.framework/Headers/SpotifyAudioPlayback.h"
+- "/Users/theckraft/Documents/Programming/Xcode/RelayMusicPlayer/RelayMusicPlayer/SpotifySDKFramworks/SpotifyAuthentication.framework/Headers/SPTSession.h"
+- "/Users/theckraft/Documents/Programming/Xcode/RelayMusicPlayer/RelayMusicPlayer/SpotifySDKFramworks/SpotifyAuthentication.framework/Headers/SpotifyAuthentication.h"
+- "/Users/theckraft/Documents/Programming/Xcode/RelayMusicPlayer/RelayMusicPlayer/SpotifySDKFramworks/SpotifyAuthentication.framework/Headers/SPTConnectButton.h"
+- "/Users/theckraft/Documents/Programming/Xcode/RelayMusicPlayer/RelayMusicPlayer/RelayMusicPlayer-Bridging-Header.h"
+- "/Users/theckraft/Documents/Programming/Xcode/RelayMusicPlayer/RelayMusicPlayer/SpotifySDKFramworks/SpotifyAudioPlayback.framework/Headers/SPTCircularBuffer.h"
+- "/Users/theckraft/Documents/Programming/Xcode/RelayMusicPlayer/RelayMusicPlayer/SpotifySDKFramworks/SpotifyAudioPlayback.framework/Headers/SPTAudioStreamingController.h"
+- "/Users/theckraft/Documents/Programming/Xcode/RelayMusicPlayer/RelayMusicPlayer/SpotifySDKFramworks/SpotifyAudioPlayback.framework/Headers/SPTCoreAudioController.h"
+- "/Users/theckraft/Documents/Programming/Xcode/RelayMusicPlayer/RelayMusicPlayer/SpotifySDKFramworks/SpotifyAuthentication.framework/Headers/SPTStoreViewController.h"
+- "/Users/theckraft/Documents/Programming/Xcode/RelayMusicPlayer/RelayMusicPlayer/SpotifySDKFramworks/SpotifyAuthentication.framework/Headers/SPTAuthViewController.h"
+- "/Users/theckraft/Documents/Programming/Xcode/RelayMusicPlayer/RelayMusicPlayer/SpotifySDKFramworks/SpotifyAudioPlayback.framework/Headers/SPTAudioStreamingController_ErrorCodes.h"
+- "/Users/theckraft/Documents/Programming/Xcode/RelayMusicPlayer/RelayMusicPlayer/SpotifySDKFramworks/SpotifyAuthentication.framework/Headers/SPTEmbeddedImages.h"
+- "/Users/theckraft/Documents/Programming/Xcode/RelayMusicPlayer/RelayMusicPlayer/SpotifySDKFramworks/SpotifyAudioPlayback.framework/Headers/SPTAudioPlaybackTypes.h"
+- "/Users/theckraft/Documents/Programming/Xcode/RelayMusicPlayer/RelayMusicPlayer/SpotifySDKFramworks/SpotifyAudioPlayback.framework/Headers/SpPlaybackEvent.h"
+interface-hash: "a38400a433a92ab8785080033525b6d9"
