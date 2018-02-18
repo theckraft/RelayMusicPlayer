@@ -22,7 +22,6 @@ depends-top-level:
 - !private "URL"
 - !private "UnicodeScalarType"
 - "Void"
-- !private "print"
 depends-member:
 - !private ["Sa", "joined"]
 - ["s23BidirectionalCollectionP", "init"]
@@ -43,11 +42,13 @@ depends-member:
 - !private ["s9DecodableP", "joined"]
 - ["s9EncodableP", "init"]
 - !private ["s9EncodableP", "joined"]
+- !private ["s9EquatableP", "OK"]
 - ["s9EquatableP", "init"]
 - !private ["s25ExpressibleByArrayLiteralP", "joined"]
 - ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
 - ["s26ExpressibleByStringLiteralP", "init"]
 - ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "OK"]
 - ["s8HashableP", "init"]
 - !private ["10Foundation11JSONDecoderC", "decode"]
 - !private ["10Foundation11JSONDecoderC", "init"]
@@ -65,6 +66,7 @@ depends-member:
 - !private ["s22RandomAccessCollectionP", "joined"]
 - ["s26RangeReplaceableCollectionP", "init"]
 - !private ["s26RangeReplaceableCollectionP", "joined"]
+- !private ["s16RawRepresentableP", "OK"]
 - !private ["10Foundation20ReferenceConvertibleP", "init"]
 - ["s8SequenceP", "init"]
 - !private ["s8SequenceP", "joined"]
@@ -82,7 +84,6 @@ depends-member:
 - ["16RelayMusicPlayer17SpotifyAPIHandlerC", "getAlbumTracks"]
 - ["16RelayMusicPlayer17SpotifyAPIHandlerC", "getAlbums"]
 - ["16RelayMusicPlayer17SpotifyAPIHandlerC", "init"]
-- !private ["16RelayMusicPlayer17SpotifyAPIHandlerC", "print"]
 - !private ["16RelayMusicPlayer17SpotifyAPIHandlerC", "request"]
 - ["16RelayMusicPlayer17SpotifyAPIHandlerC", ""]
 - !private ["16RelayMusicPlayer12SpotifyAlbumC", "deinit"]
@@ -102,8 +103,8 @@ depends-member:
 - ["16RelayMusicPlayer20SpotifyAlbumsHandlerC", "getAlbumTracks"]
 - ["16RelayMusicPlayer20SpotifyAlbumsHandlerC", "getAlbums"]
 - ["16RelayMusicPlayer20SpotifyAlbumsHandlerC", "init"]
-- !private ["16RelayMusicPlayer20SpotifyAlbumsHandlerC", "print"]
 - !private ["16RelayMusicPlayer13SpotifyPagingC", "deinit"]
+- !private ["16RelayMusicPlayer17SpotifyAPIHandlerC10StatusCodeO", "OK"]
 - ["SS", "init"]
 - ["s14StringProtocolP", "init"]
 - ["s16TextOutputStreamP", "init"]
@@ -164,6 +165,7 @@ depends-nominal:
 - "So8NSStringC"
 - !private "s22RandomAccessCollectionP"
 - "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
 - !private "10Foundation20ReferenceConvertibleP"
 - "s8SequenceP"
 - "16RelayMusicPlayer17SpotifyAPIHandlerC"
@@ -171,6 +173,7 @@ depends-nominal:
 - !private "16RelayMusicPlayer13SpotifyAlbumsV"
 - "16RelayMusicPlayer20SpotifyAlbumsHandlerC"
 - !private "16RelayMusicPlayer13SpotifyPagingC"
+- !private "16RelayMusicPlayer17SpotifyAPIHandlerC10StatusCodeO"
 - "SS"
 - "s14StringProtocolP"
 - "s16TextOutputStreamP"
@@ -233,4 +236,4 @@ depends-external:
 - "/Users/theckraft/Documents/Programming/Xcode/RelayMusicPlayer/RelayMusicPlayer/SpotifySDKFramworks/SpotifyAuthentication.framework/Headers/SPTEmbeddedImages.h"
 - "/Users/theckraft/Documents/Programming/Xcode/RelayMusicPlayer/RelayMusicPlayer/SpotifySDKFramworks/SpotifyAudioPlayback.framework/Headers/SPTAudioPlaybackTypes.h"
 - "/Users/theckraft/Documents/Programming/Xcode/RelayMusicPlayer/RelayMusicPlayer/SpotifySDKFramworks/SpotifyAudioPlayback.framework/Headers/SpPlaybackEvent.h"
-interface-hash: "1cd2ef3107630e05ecbdeec7c44a0821"
+interface-hash: "28a82ebda914ff388e7d066b98cc5b7c"

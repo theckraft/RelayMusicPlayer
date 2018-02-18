@@ -7,16 +7,224 @@ provides-member:
 - ["16RelayMusicPlayer21SpotifyLibraryHandlerC", ""]
 provides-dynamic-lookup:
 depends-top-level:
+- !private "+"
+- !private "+="
+- "AssignmentPrecedence"
+- "Bool"
+- "Int"
+- !private "JSONDecoder"
 - "SpotifyAPIHandler"
 - "SpotifyLibraryHandler"
+- "SpotifyPaging"
+- "SpotifySavedAlbum"
+- "SpotifySavedTrack"
+- "String"
+- "StringLiteralType"
+- !private "URL"
+- !private "UnicodeScalarType"
+- "Void"
 depends-member:
+- !private ["Sa", "joined"]
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "joined"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "joined"]
+- !private ["s7CVarArgP", "subscript"]
+- ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "joined"]
+- !private ["s10CollectionP", "subscript"]
+- ["s10ComparableP", "init"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "joined"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "joined"]
+- !private ["s17CustomReflectableP", "subscript"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "joined"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "joined"]
+- !private ["s9DecodableP", "subscript"]
+- !private ["s10DictionaryV", "init"]
+- !private ["s10DictionaryV", "subscript"]
+- ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "joined"]
+- !private ["s9EncodableP", "subscript"]
+- !private ["s9EquatableP", "Created"]
+- !private ["s9EquatableP", "OK"]
+- ["s9EquatableP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "joined"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "Created"]
+- !private ["s8HashableP", "OK"]
+- ["s8HashableP", "init"]
+- !private ["10Foundation11JSONDecoderC", "decode"]
+- !private ["10Foundation11JSONDecoderC", "init"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s10MirrorPathP", "init"]
+- !private ["s17MutableCollectionP", "joined"]
+- ["So8NSCodingP", "init"]
+- ["So9NSCopyingP", "init"]
+- ["So21NSItemProviderReadingP", "init"]
+- ["So21NSItemProviderWritingP", "init"]
+- ["So16NSMutableCopyingP", "init"]
+- ["So16NSObjectProtocolP", "init"]
+- ["So14NSSecureCodingP", "init"]
+- ["So8NSStringC", "init"]
+- !private ["s22RandomAccessCollectionP", "joined"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "joined"]
+- !private ["s16RawRepresentableP", "Created"]
+- !private ["s16RawRepresentableP", "OK"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "joined"]
+- !private ["s8SequenceP", "subscript"]
+- ["16RelayMusicPlayer17SpotifyAPIHandlerC", "Bool"]
+- ["16RelayMusicPlayer17SpotifyAPIHandlerC", "Int"]
+- !private ["16RelayMusicPlayer17SpotifyAPIHandlerC", "JSONDecoder"]
+- ["16RelayMusicPlayer17SpotifyAPIHandlerC", "SpotifyPaging"]
+- ["16RelayMusicPlayer17SpotifyAPIHandlerC", "SpotifySavedAlbum"]
+- ["16RelayMusicPlayer17SpotifyAPIHandlerC", "SpotifySavedTrack"]
+- ["16RelayMusicPlayer17SpotifyAPIHandlerC", "String"]
+- !private ["16RelayMusicPlayer17SpotifyAPIHandlerC", "URL"]
+- ["16RelayMusicPlayer17SpotifyAPIHandlerC", "Void"]
+- ["16RelayMusicPlayer17SpotifyAPIHandlerC", "baseURL"]
+- ["16RelayMusicPlayer17SpotifyAPIHandlerC", "checkAlbums"]
+- ["16RelayMusicPlayer17SpotifyAPIHandlerC", "checkTracks"]
+- ["16RelayMusicPlayer17SpotifyAPIHandlerC", "getAlbums"]
+- ["16RelayMusicPlayer17SpotifyAPIHandlerC", "getTracks"]
 - ["16RelayMusicPlayer17SpotifyAPIHandlerC", "init"]
+- ["16RelayMusicPlayer17SpotifyAPIHandlerC", "removeAlbums"]
+- ["16RelayMusicPlayer17SpotifyAPIHandlerC", "removeTracks"]
+- !private ["16RelayMusicPlayer17SpotifyAPIHandlerC", "request"]
+- ["16RelayMusicPlayer17SpotifyAPIHandlerC", "saveAlbums"]
+- ["16RelayMusicPlayer17SpotifyAPIHandlerC", "saveTracks"]
 - ["16RelayMusicPlayer17SpotifyAPIHandlerC", ""]
+- ["16RelayMusicPlayer21SpotifyLibraryHandlerC", "Bool"]
+- ["16RelayMusicPlayer21SpotifyLibraryHandlerC", "Int"]
+- !private ["16RelayMusicPlayer21SpotifyLibraryHandlerC", "JSONDecoder"]
+- ["16RelayMusicPlayer21SpotifyLibraryHandlerC", "SpotifyPaging"]
+- ["16RelayMusicPlayer21SpotifyLibraryHandlerC", "SpotifySavedAlbum"]
+- ["16RelayMusicPlayer21SpotifyLibraryHandlerC", "SpotifySavedTrack"]
+- ["16RelayMusicPlayer21SpotifyLibraryHandlerC", "String"]
+- !private ["16RelayMusicPlayer21SpotifyLibraryHandlerC", "URL"]
+- ["16RelayMusicPlayer21SpotifyLibraryHandlerC", "Void"]
+- ["16RelayMusicPlayer21SpotifyLibraryHandlerC", "baseURL"]
+- ["16RelayMusicPlayer21SpotifyLibraryHandlerC", "checkAlbums"]
+- ["16RelayMusicPlayer21SpotifyLibraryHandlerC", "checkTracks"]
 - ["16RelayMusicPlayer21SpotifyLibraryHandlerC", "deinit"]
+- ["16RelayMusicPlayer21SpotifyLibraryHandlerC", "getAlbums"]
+- ["16RelayMusicPlayer21SpotifyLibraryHandlerC", "getTracks"]
 - ["16RelayMusicPlayer21SpotifyLibraryHandlerC", "init"]
+- ["16RelayMusicPlayer21SpotifyLibraryHandlerC", "removeAlbums"]
+- ["16RelayMusicPlayer21SpotifyLibraryHandlerC", "removeTracks"]
+- ["16RelayMusicPlayer21SpotifyLibraryHandlerC", "saveAlbums"]
+- ["16RelayMusicPlayer21SpotifyLibraryHandlerC", "saveTracks"]
+- !private ["16RelayMusicPlayer13SpotifyPagingC", "deinit"]
+- !private ["16RelayMusicPlayer17SpotifyAPIHandlerC10StatusCodeO", "Created"]
+- !private ["16RelayMusicPlayer17SpotifyAPIHandlerC10StatusCodeO", "OK"]
+- ["SS", "init"]
+- ["s14StringProtocolP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["10Foundation3URLV", "init"]
+- !private ["s14_ArrayProtocolP", "joined"]
+- ["s23_BidirectionalIndexableP", "init"]
+- !private ["s23_BidirectionalIndexableP", "joined"]
+- !private ["s24_DestructorSafeContainerP", "joined"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- ["s10_IndexableP", "init"]
+- !private ["s10_IndexableP", "joined"]
+- !private ["s10_IndexableP", "subscript"]
+- ["s14_IndexableBaseP", "init"]
+- !private ["s14_IndexableBaseP", "joined"]
+- !private ["s14_IndexableBaseP", "subscript"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["s17_MutableIndexableP", "joined"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "joined"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s22_RandomAccessIndexableP", "joined"]
+- ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "joined"]
+- ["s16_SwiftStringViewP", "init"]
 depends-nominal:
+- !private "Sa"
+- "s23BidirectionalCollectionP"
+- "s7CVarArgP"
+- "s10CollectionP"
+- "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- !private "s10DictionaryV"
+- "s9EncodableP"
+- "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- !private "10Foundation11JSONDecoderC"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So21NSItemProviderReadingP"
+- "So21NSItemProviderWritingP"
+- "So16NSMutableCopyingP"
+- "So16NSObjectProtocolP"
+- "So14NSSecureCodingP"
+- "So8NSStringC"
+- !private "s22RandomAccessCollectionP"
+- "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- !private "10Foundation20ReferenceConvertibleP"
+- "s8SequenceP"
 - "16RelayMusicPlayer17SpotifyAPIHandlerC"
 - "16RelayMusicPlayer21SpotifyLibraryHandlerC"
+- !private "16RelayMusicPlayer13SpotifyPagingC"
+- !private "16RelayMusicPlayer17SpotifyAPIHandlerC10StatusCodeO"
+- "SS"
+- "s14StringProtocolP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "10Foundation3URLV"
+- !private "s14_ArrayProtocolP"
+- "s23_BidirectionalIndexableP"
+- !private "s24_DestructorSafeContainerP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "s10_IndexableP"
+- "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s17_MutableIndexableP"
+- "s21_ObjectiveCBridgeableP"
+- !private "s22_RandomAccessIndexableP"
+- "s26_RangeReplaceableIndexableP"
+- "s16_SwiftStringViewP"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
@@ -56,4 +264,4 @@ depends-external:
 - "/Users/theckraft/Documents/Programming/Xcode/RelayMusicPlayer/RelayMusicPlayer/SpotifySDKFramworks/SpotifyAuthentication.framework/Headers/SPTEmbeddedImages.h"
 - "/Users/theckraft/Documents/Programming/Xcode/RelayMusicPlayer/RelayMusicPlayer/SpotifySDKFramworks/SpotifyAudioPlayback.framework/Headers/SPTAudioPlaybackTypes.h"
 - "/Users/theckraft/Documents/Programming/Xcode/RelayMusicPlayer/RelayMusicPlayer/SpotifySDKFramworks/SpotifyAudioPlayback.framework/Headers/SpPlaybackEvent.h"
-interface-hash: "a744f659b8a28fd82fd23490da95d557"
+interface-hash: "0e2874c518a1f9f18cad00258027b12c"

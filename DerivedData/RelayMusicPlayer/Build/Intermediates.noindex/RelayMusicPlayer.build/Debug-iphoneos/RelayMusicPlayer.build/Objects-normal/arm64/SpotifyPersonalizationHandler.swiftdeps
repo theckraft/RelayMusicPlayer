@@ -3,20 +3,255 @@ provides-top-level:
 - "SpotifyPersonalizationHandler"
 provides-nominal:
 - "16RelayMusicPlayer29SpotifyPersonalizationHandlerC"
+- "16RelayMusicPlayer29SpotifyPersonalizationHandlerC9TimeRangeO"
+- "16RelayMusicPlayer29SpotifyPersonalizationHandlerC10EntityTypeO"
 provides-member:
 - ["16RelayMusicPlayer29SpotifyPersonalizationHandlerC", ""]
+- ["16RelayMusicPlayer29SpotifyPersonalizationHandlerC9TimeRangeO", ""]
+- ["16RelayMusicPlayer29SpotifyPersonalizationHandlerC10EntityTypeO", ""]
 provides-dynamic-lookup:
 depends-top-level:
+- !private "+"
+- !private "+="
+- "=="
+- "Int"
+- !private "JSONDecoder"
 - "SpotifyAPIHandler"
+- "SpotifyArtist"
+- "SpotifyCursorPaging"
+- "SpotifyPaging"
 - "SpotifyPersonalizationHandler"
+- "SpotifyPlayHistory"
+- "SpotifyTrack"
+- "String"
+- "StringLiteralType"
+- !private "URL"
+- "Void"
+- !private "~="
 depends-member:
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["s13BinaryIntegerP", "hashValue"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "hashValue"]
+- ["s7CVarArgP", "init"]
+- ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "hashValue"]
+- ["s10ComparableP", "init"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "hashValue"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "hashValue"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "hashValue"]
+- ["s9DecodableP", "init"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "hashValue"]
+- ["s9EncodableP", "init"]
+- ["16RelayMusicPlayer29SpotifyPersonalizationHandlerC10EntityTypeO", "RawValue"]
+- ["16RelayMusicPlayer29SpotifyPersonalizationHandlerC10EntityTypeO", "artists"]
+- ["16RelayMusicPlayer29SpotifyPersonalizationHandlerC10EntityTypeO", "deinit"]
+- ["16RelayMusicPlayer29SpotifyPersonalizationHandlerC10EntityTypeO", "hashValue"]
+- ["16RelayMusicPlayer29SpotifyPersonalizationHandlerC10EntityTypeO", "init"]
+- ["16RelayMusicPlayer29SpotifyPersonalizationHandlerC10EntityTypeO", "rawValue"]
+- ["16RelayMusicPlayer29SpotifyPersonalizationHandlerC10EntityTypeO", "tracks"]
+- !private ["s9EquatableP", "OK"]
+- ["s9EquatableP", "RawValue"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- ["s9EquatableP", "hashValue"]
+- ["s9EquatableP", "init"]
+- ["s9EquatableP", "rawValue"]
+- ["s9EquatableP", ""]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "hashValue"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "hashValue"]
+- !private ["s8HashableP", "OK"]
+- ["s8HashableP", "RawValue"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- ["s8HashableP", "hashValue"]
+- ["s8HashableP", "init"]
+- ["s8HashableP", "rawValue"]
+- ["s8HashableP", ""]
+- !private ["Si", "hashValue"]
+- !private ["10Foundation11JSONDecoderC", "decode"]
+- !private ["10Foundation11JSONDecoderC", "init"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "hashValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "hashValue"]
+- ["s10MirrorPathP", "init"]
+- ["So8NSCodingP", "init"]
+- ["So9NSCopyingP", "init"]
+- ["So21NSItemProviderReadingP", "init"]
+- ["So21NSItemProviderWritingP", "init"]
+- ["So16NSMutableCopyingP", "init"]
+- ["So16NSObjectProtocolP", "init"]
+- ["So14NSSecureCodingP", "init"]
+- ["So8NSStringC", "init"]
+- !private ["s7NumericP", "hashValue"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s16RawRepresentableP", "OK"]
+- ["s16RawRepresentableP", "RawValue"]
+- ["s16RawRepresentableP", "hashValue"]
+- ["s16RawRepresentableP", "init"]
+- ["s16RawRepresentableP", "rawValue"]
+- ["s16RawRepresentableP", ""]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- ["s8SequenceP", "init"]
+- !private ["s13SignedIntegerP", "hashValue"]
+- !private ["s13SignedNumericP", "hashValue"]
+- ["16RelayMusicPlayer17SpotifyAPIHandlerC", "Int"]
+- !private ["16RelayMusicPlayer17SpotifyAPIHandlerC", "JSONDecoder"]
+- ["16RelayMusicPlayer17SpotifyAPIHandlerC", "SpotifyArtist"]
+- ["16RelayMusicPlayer17SpotifyAPIHandlerC", "SpotifyCursorPaging"]
+- ["16RelayMusicPlayer17SpotifyAPIHandlerC", "SpotifyPaging"]
+- ["16RelayMusicPlayer17SpotifyAPIHandlerC", "SpotifyPlayHistory"]
+- ["16RelayMusicPlayer17SpotifyAPIHandlerC", "SpotifyTrack"]
+- ["16RelayMusicPlayer17SpotifyAPIHandlerC", "String"]
+- ["16RelayMusicPlayer17SpotifyAPIHandlerC", "TimeRange"]
+- !private ["16RelayMusicPlayer17SpotifyAPIHandlerC", "URL"]
+- ["16RelayMusicPlayer17SpotifyAPIHandlerC", "Void"]
+- ["16RelayMusicPlayer17SpotifyAPIHandlerC", "baseURL"]
+- ["16RelayMusicPlayer17SpotifyAPIHandlerC", "getRecentlyPlayedTracks"]
+- ["16RelayMusicPlayer17SpotifyAPIHandlerC", "getTopArtists"]
+- ["16RelayMusicPlayer17SpotifyAPIHandlerC", "getTopTracks"]
 - ["16RelayMusicPlayer17SpotifyAPIHandlerC", "init"]
+- !private ["16RelayMusicPlayer17SpotifyAPIHandlerC", "request"]
 - ["16RelayMusicPlayer17SpotifyAPIHandlerC", ""]
+- !private ["16RelayMusicPlayer19SpotifyCursorPagingC", "deinit"]
+- !private ["16RelayMusicPlayer13SpotifyPagingC", "deinit"]
+- ["16RelayMusicPlayer29SpotifyPersonalizationHandlerC", "EntityType"]
+- ["16RelayMusicPlayer29SpotifyPersonalizationHandlerC", "Int"]
+- !private ["16RelayMusicPlayer29SpotifyPersonalizationHandlerC", "JSONDecoder"]
+- ["16RelayMusicPlayer29SpotifyPersonalizationHandlerC", "SpotifyArtist"]
+- ["16RelayMusicPlayer29SpotifyPersonalizationHandlerC", "SpotifyCursorPaging"]
+- ["16RelayMusicPlayer29SpotifyPersonalizationHandlerC", "SpotifyPaging"]
+- ["16RelayMusicPlayer29SpotifyPersonalizationHandlerC", "SpotifyPlayHistory"]
+- ["16RelayMusicPlayer29SpotifyPersonalizationHandlerC", "SpotifyTrack"]
+- ["16RelayMusicPlayer29SpotifyPersonalizationHandlerC", "String"]
+- ["16RelayMusicPlayer29SpotifyPersonalizationHandlerC", "TimeRange"]
+- !private ["16RelayMusicPlayer29SpotifyPersonalizationHandlerC", "URL"]
+- ["16RelayMusicPlayer29SpotifyPersonalizationHandlerC", "Void"]
+- ["16RelayMusicPlayer29SpotifyPersonalizationHandlerC", "baseURL"]
 - ["16RelayMusicPlayer29SpotifyPersonalizationHandlerC", "deinit"]
+- ["16RelayMusicPlayer29SpotifyPersonalizationHandlerC", "getRecentlyPlayedTracks"]
+- ["16RelayMusicPlayer29SpotifyPersonalizationHandlerC", "getTopArtists"]
+- ["16RelayMusicPlayer29SpotifyPersonalizationHandlerC", "getTopTracks"]
 - ["16RelayMusicPlayer29SpotifyPersonalizationHandlerC", "init"]
+- !private ["16RelayMusicPlayer17SpotifyAPIHandlerC10StatusCodeO", "OK"]
+- !private ["s10StrideableP", "hashValue"]
+- ["SS", "init"]
+- ["s14StringProtocolP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- ["16RelayMusicPlayer29SpotifyPersonalizationHandlerC9TimeRangeO", "RawValue"]
+- ["16RelayMusicPlayer29SpotifyPersonalizationHandlerC9TimeRangeO", "deinit"]
+- ["16RelayMusicPlayer29SpotifyPersonalizationHandlerC9TimeRangeO", "hashValue"]
+- ["16RelayMusicPlayer29SpotifyPersonalizationHandlerC9TimeRangeO", "init"]
+- ["16RelayMusicPlayer29SpotifyPersonalizationHandlerC9TimeRangeO", "longTerm"]
+- ["16RelayMusicPlayer29SpotifyPersonalizationHandlerC9TimeRangeO", "mediumTerm"]
+- ["16RelayMusicPlayer29SpotifyPersonalizationHandlerC9TimeRangeO", "rawValue"]
+- ["16RelayMusicPlayer29SpotifyPersonalizationHandlerC9TimeRangeO", "shortTerm"]
+- !private ["10Foundation3URLV", "init"]
+- ["s23_BidirectionalIndexableP", "init"]
+- !private ["s18_BitwiseOperationsP", "hashValue"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "hashValue"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- ["s10_IndexableP", "init"]
+- ["s14_IndexableBaseP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "hashValue"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s11_StrideableP", "hashValue"]
+- ["s16_SwiftStringViewP", "init"]
 depends-nominal:
+- "s23BidirectionalCollectionP"
+- !private "s13BinaryIntegerP"
+- !private "Sb"
+- "s7CVarArgP"
+- "s10CollectionP"
+- "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- "s9EncodableP"
+- "16RelayMusicPlayer29SpotifyPersonalizationHandlerC10EntityTypeO"
+- "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- "s8HashableP"
+- !private "Si"
+- !private "10Foundation11JSONDecoderC"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So21NSItemProviderReadingP"
+- "So21NSItemProviderWritingP"
+- "So16NSMutableCopyingP"
+- "So16NSObjectProtocolP"
+- "So14NSSecureCodingP"
+- "So8NSStringC"
+- !private "s7NumericP"
+- "s26RangeReplaceableCollectionP"
+- "s16RawRepresentableP"
+- !private "10Foundation20ReferenceConvertibleP"
+- "s8SequenceP"
+- !private "s13SignedIntegerP"
+- !private "s13SignedNumericP"
 - "16RelayMusicPlayer17SpotifyAPIHandlerC"
+- !private "16RelayMusicPlayer19SpotifyCursorPagingC"
+- !private "16RelayMusicPlayer13SpotifyPagingC"
 - "16RelayMusicPlayer29SpotifyPersonalizationHandlerC"
+- !private "16RelayMusicPlayer17SpotifyAPIHandlerC10StatusCodeO"
+- !private "s10StrideableP"
+- "SS"
+- "s14StringProtocolP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "16RelayMusicPlayer29SpotifyPersonalizationHandlerC9TimeRangeO"
+- !private "10Foundation3URLV"
+- "s23_BidirectionalIndexableP"
+- !private "s18_BitwiseOperationsP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "s10_IndexableP"
+- "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s26_RangeReplaceableIndexableP"
+- !private "s11_StrideableP"
+- "s16_SwiftStringViewP"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
@@ -56,4 +291,4 @@ depends-external:
 - "/Users/theckraft/Documents/Programming/Xcode/RelayMusicPlayer/RelayMusicPlayer/SpotifySDKFramworks/SpotifyAuthentication.framework/Headers/SPTEmbeddedImages.h"
 - "/Users/theckraft/Documents/Programming/Xcode/RelayMusicPlayer/RelayMusicPlayer/SpotifySDKFramworks/SpotifyAudioPlayback.framework/Headers/SPTAudioPlaybackTypes.h"
 - "/Users/theckraft/Documents/Programming/Xcode/RelayMusicPlayer/RelayMusicPlayer/SpotifySDKFramworks/SpotifyAudioPlayback.framework/Headers/SpPlaybackEvent.h"
-interface-hash: "604a04da0310b0670deb87052c4a993b"
+interface-hash: "fc684f66c8f07c5f5c8755392dc57def"

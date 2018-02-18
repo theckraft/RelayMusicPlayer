@@ -23,7 +23,7 @@ class SpotifySearchHandler: SpotifyAPIHandler {
     
     //search function for any spotify search
     //TODO: add functionality for other search parameters (check api)
-    public func search(with query: String, types: [SearchType], onSuccess: @escaping (SpotifySearch) -> Void, onFailure: @escaping () -> Void) {
+    public func search(with query: String, types: [SearchType], onSuccess: @escaping (SpotifySearch) -> Void, onFailure: @escaping (String) -> Void) {
         
         //spotify search url (domain should be stored in a constants file)
         var url = "https://api.spotify.com/v1/search"
@@ -45,19 +45,18 @@ class SpotifySearchHandler: SpotifyAPIHandler {
         }
         
         //handle results, callback will run after request is made
-        super.request(with: searchURL, onSuccess: { data in
-            
-            let jsonDecoder = JSONDecoder()
-            do {
-                let spotifySearchObject = try jsonDecoder.decode(SpotifySearch.self, from:data)
-                onSuccess(spotifySearchObject)
-            } catch {
-                print("caught: \(error)")
-                onFailure()
+        super.request(with: searchURL, onSuccess: { data, statusCode in
+            switch statusCode {
+            case .OK:
+                let jsonDecoder = JSONDecoder()
+                do {
+                    let spotifySearchObject = try jsonDecoder.decode(SpotifySearch.self, from:data)
+                    onSuccess(spotifySearchObject)
+                } catch { onFailure("Could Not Decode Data") }
+            default:
+                onFailure("Unidentified Error")
             }
-        }, onFailure: {
-            onFailure()
-        })
+        }, onFailure: { message in onFailure(message) })
     }
     
 }

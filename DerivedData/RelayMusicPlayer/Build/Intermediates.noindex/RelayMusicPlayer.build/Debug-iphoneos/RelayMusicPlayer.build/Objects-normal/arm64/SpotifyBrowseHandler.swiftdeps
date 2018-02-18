@@ -7,16 +7,173 @@ provides-member:
 - ["16RelayMusicPlayer20SpotifyBrowseHandlerC", ""]
 provides-dynamic-lookup:
 depends-top-level:
+- !private "+"
+- !private "+="
+- "Int"
+- !private "JSONDecoder"
 - "SpotifyAPIHandler"
+- "SpotifyAlbumsComposite"
 - "SpotifyBrowseHandler"
+- "SpotifyCategory"
+- "SpotifyPaging"
+- "SpotifyPlaylist"
+- "SpotifyPlaylistsComposite"
+- "String"
+- "StringLiteralType"
+- !private "URL"
+- "Void"
 depends-member:
+- ["s23BidirectionalCollectionP", "init"]
+- ["s7CVarArgP", "init"]
+- ["s10CollectionP", "init"]
+- ["s10ComparableP", "init"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s17CustomReflectableP", "init"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s9DecodableP", "init"]
+- ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "OK"]
+- ["s9EquatableP", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "OK"]
+- ["s8HashableP", "init"]
+- !private ["10Foundation11JSONDecoderC", "decode"]
+- !private ["10Foundation11JSONDecoderC", "init"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s10MirrorPathP", "init"]
+- ["So8NSCodingP", "init"]
+- ["So9NSCopyingP", "init"]
+- ["So21NSItemProviderReadingP", "init"]
+- ["So21NSItemProviderWritingP", "init"]
+- ["So16NSMutableCopyingP", "init"]
+- ["So16NSObjectProtocolP", "init"]
+- ["So14NSSecureCodingP", "init"]
+- ["So8NSStringC", "init"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s16RawRepresentableP", "OK"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- ["s8SequenceP", "init"]
+- ["16RelayMusicPlayer17SpotifyAPIHandlerC", "Int"]
+- !private ["16RelayMusicPlayer17SpotifyAPIHandlerC", "JSONDecoder"]
+- ["16RelayMusicPlayer17SpotifyAPIHandlerC", "SpotifyAlbumsComposite"]
+- ["16RelayMusicPlayer17SpotifyAPIHandlerC", "SpotifyCategory"]
+- ["16RelayMusicPlayer17SpotifyAPIHandlerC", "SpotifyPaging"]
+- ["16RelayMusicPlayer17SpotifyAPIHandlerC", "SpotifyPlaylist"]
+- ["16RelayMusicPlayer17SpotifyAPIHandlerC", "SpotifyPlaylistsComposite"]
+- ["16RelayMusicPlayer17SpotifyAPIHandlerC", "String"]
+- !private ["16RelayMusicPlayer17SpotifyAPIHandlerC", "URL"]
+- ["16RelayMusicPlayer17SpotifyAPIHandlerC", "Void"]
+- ["16RelayMusicPlayer17SpotifyAPIHandlerC", "baseURL"]
+- ["16RelayMusicPlayer17SpotifyAPIHandlerC", "getCategories"]
+- ["16RelayMusicPlayer17SpotifyAPIHandlerC", "getCategory"]
+- ["16RelayMusicPlayer17SpotifyAPIHandlerC", "getCategoryPlaylists"]
+- ["16RelayMusicPlayer17SpotifyAPIHandlerC", "getFeaturedPlaylists"]
+- ["16RelayMusicPlayer17SpotifyAPIHandlerC", "getNewReleases"]
 - ["16RelayMusicPlayer17SpotifyAPIHandlerC", "init"]
+- !private ["16RelayMusicPlayer17SpotifyAPIHandlerC", "request"]
 - ["16RelayMusicPlayer17SpotifyAPIHandlerC", ""]
+- !private ["16RelayMusicPlayer22SpotifyAlbumsCompositeV", "deinit"]
+- ["16RelayMusicPlayer20SpotifyBrowseHandlerC", "Int"]
+- !private ["16RelayMusicPlayer20SpotifyBrowseHandlerC", "JSONDecoder"]
+- ["16RelayMusicPlayer20SpotifyBrowseHandlerC", "SpotifyAlbumsComposite"]
+- ["16RelayMusicPlayer20SpotifyBrowseHandlerC", "SpotifyCategory"]
+- ["16RelayMusicPlayer20SpotifyBrowseHandlerC", "SpotifyPaging"]
+- ["16RelayMusicPlayer20SpotifyBrowseHandlerC", "SpotifyPlaylist"]
+- ["16RelayMusicPlayer20SpotifyBrowseHandlerC", "SpotifyPlaylistsComposite"]
+- ["16RelayMusicPlayer20SpotifyBrowseHandlerC", "String"]
+- !private ["16RelayMusicPlayer20SpotifyBrowseHandlerC", "URL"]
+- ["16RelayMusicPlayer20SpotifyBrowseHandlerC", "Void"]
+- ["16RelayMusicPlayer20SpotifyBrowseHandlerC", "baseURL"]
 - ["16RelayMusicPlayer20SpotifyBrowseHandlerC", "deinit"]
+- ["16RelayMusicPlayer20SpotifyBrowseHandlerC", "getCategories"]
+- ["16RelayMusicPlayer20SpotifyBrowseHandlerC", "getCategory"]
+- ["16RelayMusicPlayer20SpotifyBrowseHandlerC", "getCategoryPlaylists"]
+- ["16RelayMusicPlayer20SpotifyBrowseHandlerC", "getFeaturedPlaylists"]
+- ["16RelayMusicPlayer20SpotifyBrowseHandlerC", "getNewReleases"]
 - ["16RelayMusicPlayer20SpotifyBrowseHandlerC", "init"]
+- !private ["16RelayMusicPlayer15SpotifyCategoryC", "deinit"]
+- !private ["16RelayMusicPlayer13SpotifyPagingC", "deinit"]
+- !private ["16RelayMusicPlayer25SpotifyPlaylistsCompositeV", "deinit"]
+- !private ["16RelayMusicPlayer17SpotifyAPIHandlerC10StatusCodeO", "OK"]
+- ["SS", "init"]
+- ["s14StringProtocolP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["10Foundation3URLV", "init"]
+- ["s23_BidirectionalIndexableP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- ["s10_IndexableP", "init"]
+- ["s14_IndexableBaseP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s26_RangeReplaceableIndexableP", "init"]
+- ["s16_SwiftStringViewP", "init"]
 depends-nominal:
+- "s23BidirectionalCollectionP"
+- "s7CVarArgP"
+- "s10CollectionP"
+- "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- "s9EncodableP"
+- "s9EquatableP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- !private "10Foundation11JSONDecoderC"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So21NSItemProviderReadingP"
+- "So21NSItemProviderWritingP"
+- "So16NSMutableCopyingP"
+- "So16NSObjectProtocolP"
+- "So14NSSecureCodingP"
+- "So8NSStringC"
+- "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- !private "10Foundation20ReferenceConvertibleP"
+- "s8SequenceP"
 - "16RelayMusicPlayer17SpotifyAPIHandlerC"
+- !private "16RelayMusicPlayer22SpotifyAlbumsCompositeV"
 - "16RelayMusicPlayer20SpotifyBrowseHandlerC"
+- !private "16RelayMusicPlayer15SpotifyCategoryC"
+- !private "16RelayMusicPlayer13SpotifyPagingC"
+- !private "16RelayMusicPlayer25SpotifyPlaylistsCompositeV"
+- !private "16RelayMusicPlayer17SpotifyAPIHandlerC10StatusCodeO"
+- "SS"
+- "s14StringProtocolP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "10Foundation3URLV"
+- "s23_BidirectionalIndexableP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "s10_IndexableP"
+- "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s26_RangeReplaceableIndexableP"
+- "s16_SwiftStringViewP"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
@@ -56,4 +213,4 @@ depends-external:
 - "/Users/theckraft/Documents/Programming/Xcode/RelayMusicPlayer/RelayMusicPlayer/SpotifySDKFramworks/SpotifyAuthentication.framework/Headers/SPTEmbeddedImages.h"
 - "/Users/theckraft/Documents/Programming/Xcode/RelayMusicPlayer/RelayMusicPlayer/SpotifySDKFramworks/SpotifyAudioPlayback.framework/Headers/SPTAudioPlaybackTypes.h"
 - "/Users/theckraft/Documents/Programming/Xcode/RelayMusicPlayer/RelayMusicPlayer/SpotifySDKFramworks/SpotifyAudioPlayback.framework/Headers/SpPlaybackEvent.h"
-interface-hash: "a40f714027ad5315389ededdc03a1606"
+interface-hash: "b2c0a8f960254d5334b1939455f68220"

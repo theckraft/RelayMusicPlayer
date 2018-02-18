@@ -21,7 +21,6 @@ depends-top-level:
 - !private "URL"
 - !private "UnicodeScalarType"
 - "Void"
-- !private "print"
 - !private "~="
 depends-member:
 - !private ["Sa", "joined"]
@@ -80,6 +79,7 @@ depends-member:
 - !private ["s9EncodableP", "joined"]
 - !private ["s9EncodableP", "map"]
 - !private ["s9EncodableP", "split"]
+- !private ["s9EquatableP", "OK"]
 - ["s9EquatableP", "RawValue"]
 - !private ["s9EquatableP", "_getBuiltinLogicValue"]
 - !private ["s9EquatableP", "accessToken"]
@@ -99,6 +99,7 @@ depends-member:
 - ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "split"]
 - !private ["s17FixedWidthIntegerP", "hashValue"]
+- !private ["s8HashableP", "OK"]
 - ["s8HashableP", "RawValue"]
 - !private ["s8HashableP", "_getBuiltinLogicValue"]
 - !private ["s8HashableP", "accessToken"]
@@ -147,6 +148,7 @@ depends-member:
 - !private ["s26RangeReplaceableCollectionP", "joined"]
 - !private ["s26RangeReplaceableCollectionP", "map"]
 - !private ["s26RangeReplaceableCollectionP", "split"]
+- !private ["s16RawRepresentableP", "OK"]
 - ["s16RawRepresentableP", "RawValue"]
 - ["s16RawRepresentableP", "hashValue"]
 - ["s16RawRepresentableP", "init"]
@@ -176,7 +178,6 @@ depends-member:
 - !private ["16RelayMusicPlayer17SpotifyAPIHandlerC", "URL"]
 - ["16RelayMusicPlayer17SpotifyAPIHandlerC", "Void"]
 - ["16RelayMusicPlayer17SpotifyAPIHandlerC", "init"]
-- !private ["16RelayMusicPlayer17SpotifyAPIHandlerC", "print"]
 - !private ["16RelayMusicPlayer17SpotifyAPIHandlerC", "request"]
 - ["16RelayMusicPlayer17SpotifyAPIHandlerC", "search"]
 - !private ["16RelayMusicPlayer17SpotifyAPIHandlerC", "session"]
@@ -190,9 +191,9 @@ depends-member:
 - ["16RelayMusicPlayer20SpotifySearchHandlerC", "Void"]
 - ["16RelayMusicPlayer20SpotifySearchHandlerC", "deinit"]
 - ["16RelayMusicPlayer20SpotifySearchHandlerC", "init"]
-- !private ["16RelayMusicPlayer20SpotifySearchHandlerC", "print"]
 - ["16RelayMusicPlayer20SpotifySearchHandlerC", "search"]
 - !private ["16RelayMusicPlayer20SpotifySearchHandlerC", "session"]
+- !private ["16RelayMusicPlayer17SpotifyAPIHandlerC10StatusCodeO", "OK"]
 - !private ["s10StrideableP", "hashValue"]
 - ["SS", "init"]
 - !private ["SS", "split"]
@@ -307,6 +308,7 @@ depends-nominal:
 - "16RelayMusicPlayer17SpotifyAPIHandlerC"
 - !private "16RelayMusicPlayer13SpotifySearchV"
 - "16RelayMusicPlayer20SpotifySearchHandlerC"
+- !private "16RelayMusicPlayer17SpotifyAPIHandlerC10StatusCodeO"
 - !private "s10StrideableP"
 - "SS"
 - "s14StringProtocolP"
@@ -375,4 +377,4 @@ depends-external:
 - "/Users/theckraft/Documents/Programming/Xcode/RelayMusicPlayer/RelayMusicPlayer/SpotifySDKFramworks/SpotifyAuthentication.framework/Headers/SPTEmbeddedImages.h"
 - "/Users/theckraft/Documents/Programming/Xcode/RelayMusicPlayer/RelayMusicPlayer/SpotifySDKFramworks/SpotifyAudioPlayback.framework/Headers/SPTAudioPlaybackTypes.h"
 - "/Users/theckraft/Documents/Programming/Xcode/RelayMusicPlayer/RelayMusicPlayer/SpotifySDKFramworks/SpotifyAudioPlayback.framework/Headers/SpPlaybackEvent.h"
-interface-hash: "a93f2a09a9dd312d59a6e2de5f460571"
+interface-hash: "b20febc816febcfc1604f15507e7227a"

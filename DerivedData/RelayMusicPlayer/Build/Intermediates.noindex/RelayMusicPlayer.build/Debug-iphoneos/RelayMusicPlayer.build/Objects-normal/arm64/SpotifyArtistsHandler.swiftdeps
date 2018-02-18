@@ -17,14 +17,15 @@ depends-top-level:
 - "SpotifyAPIHandler"
 - "SpotifyAlbum"
 - "SpotifyArtist"
+- "SpotifyArtists"
 - "SpotifyArtistsHandler"
 - "SpotifyPaging"
+- "SpotifyTracks"
 - "String"
 - "StringLiteralType"
 - !private "URL"
 - !private "UnicodeScalarType"
 - "Void"
-- !private "print"
 - !private "~="
 depends-member:
 - ["16RelayMusicPlayer21SpotifyArtistsHandlerC9AlbumTypeO", "RawValue"]
@@ -78,6 +79,7 @@ depends-member:
 - ["s9EncodableP", "init"]
 - !private ["s9EncodableP", "joined"]
 - !private ["s9EncodableP", "map"]
+- !private ["s9EquatableP", "OK"]
 - ["s9EquatableP", "RawValue"]
 - !private ["s9EquatableP", "_getBuiltinLogicValue"]
 - ["s9EquatableP", "hashValue"]
@@ -92,6 +94,7 @@ depends-member:
 - ["s26ExpressibleByStringLiteralP", "init"]
 - ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
 - !private ["s17FixedWidthIntegerP", "hashValue"]
+- !private ["s8HashableP", "OK"]
 - ["s8HashableP", "RawValue"]
 - !private ["s8HashableP", "_getBuiltinLogicValue"]
 - ["s8HashableP", "hashValue"]
@@ -122,6 +125,7 @@ depends-member:
 - ["s26RangeReplaceableCollectionP", "init"]
 - !private ["s26RangeReplaceableCollectionP", "joined"]
 - !private ["s26RangeReplaceableCollectionP", "map"]
+- !private ["s16RawRepresentableP", "OK"]
 - ["s16RawRepresentableP", "RawValue"]
 - ["s16RawRepresentableP", "hashValue"]
 - ["s16RawRepresentableP", "init"]
@@ -138,25 +142,31 @@ depends-member:
 - !private ["16RelayMusicPlayer17SpotifyAPIHandlerC", "JSONDecoder"]
 - ["16RelayMusicPlayer17SpotifyAPIHandlerC", "SpotifyAlbum"]
 - ["16RelayMusicPlayer17SpotifyAPIHandlerC", "SpotifyArtist"]
+- ["16RelayMusicPlayer17SpotifyAPIHandlerC", "SpotifyArtists"]
 - ["16RelayMusicPlayer17SpotifyAPIHandlerC", "SpotifyPaging"]
+- ["16RelayMusicPlayer17SpotifyAPIHandlerC", "SpotifyTracks"]
 - ["16RelayMusicPlayer17SpotifyAPIHandlerC", "String"]
 - !private ["16RelayMusicPlayer17SpotifyAPIHandlerC", "URL"]
 - ["16RelayMusicPlayer17SpotifyAPIHandlerC", "Void"]
 - ["16RelayMusicPlayer17SpotifyAPIHandlerC", "baseURL"]
 - ["16RelayMusicPlayer17SpotifyAPIHandlerC", "getArtist"]
 - ["16RelayMusicPlayer17SpotifyAPIHandlerC", "getArtistAlbums"]
+- ["16RelayMusicPlayer17SpotifyAPIHandlerC", "getArtistRelatedArtists"]
+- ["16RelayMusicPlayer17SpotifyAPIHandlerC", "getArtistTopTracks"]
 - ["16RelayMusicPlayer17SpotifyAPIHandlerC", "getArtists"]
 - ["16RelayMusicPlayer17SpotifyAPIHandlerC", "init"]
-- !private ["16RelayMusicPlayer17SpotifyAPIHandlerC", "print"]
 - !private ["16RelayMusicPlayer17SpotifyAPIHandlerC", "request"]
 - ["16RelayMusicPlayer17SpotifyAPIHandlerC", ""]
 - !private ["16RelayMusicPlayer13SpotifyArtistC", "deinit"]
+- !private ["16RelayMusicPlayer14SpotifyArtistsV", "deinit"]
 - ["16RelayMusicPlayer21SpotifyArtistsHandlerC", "AlbumType"]
 - ["16RelayMusicPlayer21SpotifyArtistsHandlerC", "Int"]
 - !private ["16RelayMusicPlayer21SpotifyArtistsHandlerC", "JSONDecoder"]
 - ["16RelayMusicPlayer21SpotifyArtistsHandlerC", "SpotifyAlbum"]
 - ["16RelayMusicPlayer21SpotifyArtistsHandlerC", "SpotifyArtist"]
+- ["16RelayMusicPlayer21SpotifyArtistsHandlerC", "SpotifyArtists"]
 - ["16RelayMusicPlayer21SpotifyArtistsHandlerC", "SpotifyPaging"]
+- ["16RelayMusicPlayer21SpotifyArtistsHandlerC", "SpotifyTracks"]
 - ["16RelayMusicPlayer21SpotifyArtistsHandlerC", "String"]
 - !private ["16RelayMusicPlayer21SpotifyArtistsHandlerC", "URL"]
 - ["16RelayMusicPlayer21SpotifyArtistsHandlerC", "Void"]
@@ -164,10 +174,13 @@ depends-member:
 - ["16RelayMusicPlayer21SpotifyArtistsHandlerC", "deinit"]
 - ["16RelayMusicPlayer21SpotifyArtistsHandlerC", "getArtist"]
 - ["16RelayMusicPlayer21SpotifyArtistsHandlerC", "getArtistAlbums"]
+- ["16RelayMusicPlayer21SpotifyArtistsHandlerC", "getArtistRelatedArtists"]
+- ["16RelayMusicPlayer21SpotifyArtistsHandlerC", "getArtistTopTracks"]
 - ["16RelayMusicPlayer21SpotifyArtistsHandlerC", "getArtists"]
 - ["16RelayMusicPlayer21SpotifyArtistsHandlerC", "init"]
-- !private ["16RelayMusicPlayer21SpotifyArtistsHandlerC", "print"]
 - !private ["16RelayMusicPlayer13SpotifyPagingC", "deinit"]
+- !private ["16RelayMusicPlayer13SpotifyTracksV", "deinit"]
+- !private ["16RelayMusicPlayer17SpotifyAPIHandlerC10StatusCodeO", "OK"]
 - !private ["s10StrideableP", "hashValue"]
 - ["SS", "init"]
 - ["s14StringProtocolP", "init"]
@@ -259,8 +272,11 @@ depends-nominal:
 - !private "s13SignedNumericP"
 - "16RelayMusicPlayer17SpotifyAPIHandlerC"
 - !private "16RelayMusicPlayer13SpotifyArtistC"
+- !private "16RelayMusicPlayer14SpotifyArtistsV"
 - "16RelayMusicPlayer21SpotifyArtistsHandlerC"
 - !private "16RelayMusicPlayer13SpotifyPagingC"
+- !private "16RelayMusicPlayer13SpotifyTracksV"
+- !private "16RelayMusicPlayer17SpotifyAPIHandlerC10StatusCodeO"
 - !private "s10StrideableP"
 - "SS"
 - "s14StringProtocolP"
@@ -328,4 +344,4 @@ depends-external:
 - "/Users/theckraft/Documents/Programming/Xcode/RelayMusicPlayer/RelayMusicPlayer/SpotifySDKFramworks/SpotifyAuthentication.framework/Headers/SPTEmbeddedImages.h"
 - "/Users/theckraft/Documents/Programming/Xcode/RelayMusicPlayer/RelayMusicPlayer/SpotifySDKFramworks/SpotifyAudioPlayback.framework/Headers/SPTAudioPlaybackTypes.h"
 - "/Users/theckraft/Documents/Programming/Xcode/RelayMusicPlayer/RelayMusicPlayer/SpotifySDKFramworks/SpotifyAudioPlayback.framework/Headers/SpPlaybackEvent.h"
-interface-hash: "92df547cf4dae4a56ba2a0da2d6c673d"
+interface-hash: "3fda8afb36f1710d88107df26e0eccdb"
